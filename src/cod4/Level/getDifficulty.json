@@ -1,0 +1,11 @@
+{
+  "usage": "getDifficulty()",
+  "description": [
+    "Gets the game difficulty - can return values of \"easy\", \"medium\", \"difficult\" and \"fu\"."
+  ],
+  "return": "string",
+  "example": [
+    "skill = getDifficulty();"
+  ],
+  "engine": "SP"
+}

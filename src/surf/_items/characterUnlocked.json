@@ -1,0 +1,24 @@
+{
+  "sourceFile": "surf\\_items",
+  "usage": "<player> characterUnlocked(<num>)",
+  "description": [
+    "Checks if a player has unlocked a character."
+  ],
+  "params": [
+    {
+      "name": "num",
+      "type": "int",
+      "description": [
+        "Character ID (as found in characterTable.csv)."
+      ],
+      "optional": false
+    }
+  ],
+  "return": "bool",
+  "example": [
+    "if (self surf\\_items::character(id)) {",
+    "  self setStat(101, id);",
+    "  self.pers[\"character\"] = id;",
+    "}"
+  ]
+}

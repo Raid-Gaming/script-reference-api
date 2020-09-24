@@ -1,0 +1,13 @@
+{
+  "sourceFile": "surf\\_mod",
+  "usage": "<entity> booster()",
+  "description": [
+    "Creates a booster using addition from an entity with given kvp: \"target\" \"x y z\""
+  ],
+  "example": [
+    "boosters = getEntArray(\"trigger_boost\", \"targetname\");",
+    "for (i = 0; i < boosters.size; i++) {",
+    "  boosters[i] thread booster();",
+    "}"
+  ]
+}

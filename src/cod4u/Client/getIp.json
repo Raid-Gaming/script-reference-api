@@ -1,0 +1,20 @@
+{
+  "usage": "<client> getIp(<add port>)",
+  "description": [
+    "Get a client's IP address."
+  ],
+  "params": [
+    {
+      "name": "add port",
+      "type": "bool",
+      "description": [
+        "Whether or not to include the port number the client is using to connect to the server."
+      ],
+      "optional": true
+    }
+  ],
+  "return": "string",
+  "example": [
+    "ip = self getIp();"
+  ]
+}

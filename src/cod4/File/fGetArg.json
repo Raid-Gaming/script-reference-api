@@ -1,0 +1,28 @@
+{
+  "usage": "fGetArg(<file>, <arg>)",
+  "description": [
+    "Get a specific argument number from the current line."
+  ],
+  "params": [
+    {
+      "name": "file",
+      "type": "int",
+      "description": [
+        "File handle returned by openFile."
+      ],
+      "optional": false
+    },
+    {
+      "name": "arg",
+      "type": "int",
+      "description": [
+        "Argument number."
+      ],
+      "optional": false
+    }
+  ],
+  "return": "string",
+  "example": [
+    "data.id = fGetArg(file, 1);"
+  ]
+}

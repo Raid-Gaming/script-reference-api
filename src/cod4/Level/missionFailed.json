@@ -1,0 +1,10 @@
+{
+  "usage": "missionFailed()",
+  "description": [
+    "Does the same thing as the player being killed."
+  ],
+  "example": [
+    "missionFailed();"
+  ],
+  "engine": "SP"
+}

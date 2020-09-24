@@ -1,0 +1,21 @@
+{
+  "sourceFile": "surf\\_util",
+  "usage": "stripColor(<str>)",
+  "description": [
+    "Strips color from a string."
+  ],
+  "params": [
+    {
+      "name": "str",
+      "type": "string",
+      "description": [
+        "Any string"
+      ],
+      "optional": false
+    }
+  ],
+  "return": "string",
+  "example": [
+    "stripped = stripColor(player.name);"
+  ]
+}

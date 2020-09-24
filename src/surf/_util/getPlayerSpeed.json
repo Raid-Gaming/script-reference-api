@@ -1,0 +1,11 @@
+{
+  "sourceFile": "surf\\_util",
+  "usage": "<player> getPlayerSpeed()",
+  "description": [
+    "Get a player's current horizontal speed."
+  ],
+  "return": "int",
+  "example": [
+    "currentSpeed = self getPlayerSpeed();"
+  ]
+}

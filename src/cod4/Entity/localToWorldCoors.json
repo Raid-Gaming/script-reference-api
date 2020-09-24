@@ -1,0 +1,20 @@
+{
+  "usage": "<entity> localToWorldCoords(<local coordinate>)",
+  "description": [
+    "Transform the given local coordinate point to a world coordinate point."
+  ],
+  "params": [
+    {
+      "name": "local coordinate",
+      "type": "Vector3",
+      "description": [
+        "The point in local coordinates."
+      ],
+      "optional": false
+    }
+  ],
+  "return": "Vector3",
+  "example": [
+    "ramboPoint = self localToWorldCoors(delta);"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "usage": "soundExists(<alias>)",
+  "description": [
+    "Returns true if the sound alias exists."
+  ],
+  "params": [
+    {
+      "name": "alias",
+      "type": "string",
+      "description": [
+        "The sound alias."
+      ],
+      "optional": false
+    }
+  ],
+  "return": "bool",
+  "example": [
+    "if (soundExists(\"dirt_skid\")) {\n  // Code\n}"
+  ]
+}

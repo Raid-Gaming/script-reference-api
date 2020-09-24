@@ -1,0 +1,11 @@
+{
+  "usage": "getMapSunDirection()",
+  "description": [
+    "Return the BSP's default sun direction."
+  ],
+  "return": "Vector3",
+  "example": [
+    "level.defaultSunDir = getMapSunDirection();"
+  ],
+  "engine": "SP"
+}

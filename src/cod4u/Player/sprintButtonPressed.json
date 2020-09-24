@@ -1,0 +1,12 @@
+{
+  "usage": "<player> sprintButtonPressed()",
+  "description": [
+    "Checks if a player is pressing the sprint button."
+  ],
+  "return": "bool",
+  "example": [
+    "if (self sprintButtonPressed()) {",
+    "  // Code",
+    "}"
+  ]
+}

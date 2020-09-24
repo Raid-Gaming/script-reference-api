@@ -1,0 +1,20 @@
+{
+  "usage": "setPrintChannel(<channel>)",
+  "description": [
+    "Set the current print channel. Returns the previous channel."
+  ],
+  "params": [
+    {
+      "name": "channel",
+      "type": "string",
+      "description": [
+        "Name (or number) of channel to print to."
+      ],
+      "optional": false
+    }
+  ],
+  "return": "string",
+  "example": [
+    "prevchannel = setPrintChannel(\"script_bler\");"
+  ]
+}

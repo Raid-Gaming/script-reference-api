@@ -1,0 +1,20 @@
+{
+  "usage": "getAnimAssetType(<animation>)",
+  "description": [
+    "Get the animation asset type (delta/relative/additive etc defined in xanim.gdf)."
+  ],
+  "params": [
+    {
+      "name": "animation",
+      "type": "animation",
+      "description": [
+        "Reference to an animation."
+      ],
+      "optional": false
+    }
+  ],
+  "return": "string",
+  "example": [
+    "getAnimAssetType(%walk_and_run_loops)"
+  ]
+}

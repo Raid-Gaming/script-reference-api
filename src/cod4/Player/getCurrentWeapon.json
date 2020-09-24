@@ -1,0 +1,10 @@
+{
+  "usage": "<player> getCurrentWeapon()",
+  "description": [
+    "Gets the player's current weapon."
+  ],
+  "return": "string",
+  "example": [
+    "currentWeapon = level.player getCurrentWeapon();"
+  ]
+}

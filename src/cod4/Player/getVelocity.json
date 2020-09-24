@@ -1,0 +1,10 @@
+{
+  "usage": "<player> getVelocity()",
+  "description": [
+    "Gets the player's velocity."
+  ],
+  "return": "Vector3",
+  "example": [
+    "vel = level.player getVelocity();"
+  ]
+}

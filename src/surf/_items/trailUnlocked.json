@@ -1,0 +1,24 @@
+{
+  "sourceFile": "surf\\_items",
+  "usage": "<player> trailUnlocked(<num>)",
+  "description": [
+    "Checks if a player has unlocked a trail."
+  ],
+  "params": [
+    {
+      "name": "num",
+      "type": "int",
+      "description": [
+        "Trail ID (as found in trailTable.csv)."
+      ],
+      "optional": false
+    }
+  ],
+  "return": "bool",
+  "example": [
+    "if (self surf\\_items::trailUnlocked(id)) {",
+    "  self setStat(104, id);",
+    "  self.pers[\"trail\"] = id;",
+    "}"
+  ]
+}

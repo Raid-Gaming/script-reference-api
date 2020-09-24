@@ -1,0 +1,10 @@
+{
+  "usage": "<entity> turretFireEnable()",
+  "description": [
+    "Enable the turret's ability to fire."
+  ],
+  "example": [
+    "chaingun turretFireEnable();"
+  ],
+  "engine": "SP"
+}

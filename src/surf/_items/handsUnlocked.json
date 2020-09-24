@@ -1,0 +1,24 @@
+{
+  "sourceFile": "surf\\_items",
+  "usage": "<player> handsUnlocked(<num>)",
+  "description": [
+    "Checks if a player has unlocked a set of viewhands."
+  ],
+  "params": [
+    {
+      "name": "num",
+      "type": "int",
+      "description": [
+        "Viewhands ID (as found in handsTable.csv)."
+      ],
+      "optional": false
+    }
+  ],
+  "return": "bool",
+  "example": [
+    "if (self surf\\_items::handsUnlocked(id)) {",
+    "  self setStat(102, id);",
+    "  self.pers[\"hands\"] = id;",
+    "}"
+  ]
+}

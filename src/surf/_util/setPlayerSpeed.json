@@ -1,0 +1,20 @@
+{
+  "sourceFile": "surf\\_util",
+  "usage": "<player> setPlayerSpeed(<speed>)",
+  "description": [
+    "Set a player's horizontal speed."
+  ],
+  "params": [
+    {
+      "name": "speed",
+      "type": "int",
+      "description": [
+        "New horizontal speed."
+      ],
+      "optional": false
+    }
+  ],
+  "example": [
+    "self setPlayerSpeed(2000);"
+  ]
+}

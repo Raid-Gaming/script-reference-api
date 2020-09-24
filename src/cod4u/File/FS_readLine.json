@@ -1,0 +1,20 @@
+{
+  "usage": "FS_readLine(<file handle>)",
+  "description": [
+    "Reads a line from an opened file."
+  ],
+  "params": [
+    {
+      "name": "file handle",
+      "type": "int",
+      "description": [
+        "File handle returned by FS_fOpen."
+      ],
+      "optional": false
+    }
+  ],
+  "return": "string",
+  "example": [
+    "line = FS_readLine(file);"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "usage": "physicsTrace(<start>, <end>, <hit characters>, <ignore entity>)",
+  "description": [
+    "Physics trace, ignoring characters. Returns the end position vector"
+  ],
+  "params": [
+    {
+      "name": "start",
+      "type": "Vector3",
+      "description": [
+        "The start point."
+      ],
+      "optional": false
+    },
+    {
+      "name": "end",
+      "type": "Vector3",
+      "description": [
+        "The end point."
+      ],
+      "optional": false
+    }
+  ],
+  "return": "Vector3",
+  "example": [
+    "endPos = physicsTrace(start, end);"
+  ]
+}

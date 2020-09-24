@@ -1,0 +1,11 @@
+{
+  "usage": "getTimeScale()",
+  "description": [
+    "Gets the current timescale."
+  ],
+  "return": "float",
+  "example": [
+    "timeScale = getTimeScale();"
+  ],
+  "engine": "SP"
+}

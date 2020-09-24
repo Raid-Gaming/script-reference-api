@@ -1,0 +1,10 @@
+{
+  "usage": "<actor> clearEnemy()",
+  "description": [
+    "Clear the actor's current enemy entity."
+  ],
+  "example": [
+    "self clearEnemy()"
+  ],
+  "engine": "SP"
+}

@@ -1,0 +1,26 @@
+{
+  "usage": "vectorDot(<vector A>, <vector B>)",
+  "description": [
+    "Returns the dot product of two vectors."
+  ],
+  "params": [
+    {
+      "name": "vector A",
+      "type": "Vector3",
+      "description": [
+        "The first vector."
+      ]
+    },
+    {
+      "name": "vector B",
+      "type": "Vector3",
+      "description": [
+        "The second vector."
+      ]
+    }
+  ],
+  "return": "float",
+  "example": [
+    "dot = vectorDot(forward, normal);"
+  ]
+}

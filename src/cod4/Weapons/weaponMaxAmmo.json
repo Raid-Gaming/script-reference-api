@@ -1,0 +1,20 @@
+{
+  "usage": "weaponMaxAmmo(<weapon>)",
+  "description": [
+    "Returns the max amount of ammo this weapon is meant to hold. Stockpile only, not the clip."
+  ],
+  "params": [
+    {
+      "name": "weapon",
+      "type": "string",
+      "description": [
+        "The weapon name."
+      ],
+      "optional": false
+    }
+  ],
+  "return": "int",
+  "example": [
+    "max = weaponMaxAmmo(\"mp5\");"
+  ]
+}

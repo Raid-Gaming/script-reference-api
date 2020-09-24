@@ -1,0 +1,10 @@
+{
+  "usage": "<entity> getSpeedMPH()",
+  "description": [
+    "Gets the current speed in miles per hour."
+  ],
+  "return": "float",
+  "example": [
+    "speed = self getSpeedMPH();"
+  ]
+}

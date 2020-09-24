@@ -1,0 +1,20 @@
+{
+  "usage": "<entity> setVehWeapon(<weapon>)",
+  "description": [
+    "Set the vehicle's weapon."
+  ],
+  "params": [
+    {
+      "name": "weapon",
+      "type": "string",
+      "description": [
+        "Weapon name."
+      ],
+      "optional": false
+    }
+  ],
+  "example": [
+    "chopper setVehWeapon(\"agm_114\");"
+  ],
+  "engine": "SP"
+}

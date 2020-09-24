@@ -1,0 +1,15 @@
+{
+  "sourceFile": "surf\\_surf",
+  "usage": "<player> isOnRamp()",
+  "description": [
+    "Checks if a player is on a ramp."
+  ],
+  "return": "bool",
+  "example": [
+    "if (!self isOnRamp()) {",
+    "  self.isSurfing = false;",
+    "  self airStrafe();",
+    "  continue;",
+    "}"
+  ]
+}

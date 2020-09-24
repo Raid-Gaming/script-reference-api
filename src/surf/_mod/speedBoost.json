@@ -1,0 +1,13 @@
+{
+  "sourceFile": "surf\\_mod",
+  "usage": "<entity> speedBoost()",
+  "description": [
+    "Creates a booster using scaling from an entity with given kvp: \"target\" \"x y z\""
+  ],
+  "example": [
+    "speedBoosts = getEntArray(\"trigger_speed\", \"targetname\");",
+    "for (i = 0; i < speedBoosts.size; i++) {",
+    "  speedBoosts[i] thread speedBoosts();",
+    "}"
+  ]
+}

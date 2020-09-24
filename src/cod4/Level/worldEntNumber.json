@@ -1,0 +1,10 @@
+{
+  "usage": "worldEntNumber()",
+  "description": [
+    "Returns the entity number for the world."
+  ],
+  "example": [
+    "entNum = worldEntNumber();"
+  ],
+  "engine": "MP"
+}

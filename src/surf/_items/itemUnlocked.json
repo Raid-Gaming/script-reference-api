@@ -1,0 +1,24 @@
+{
+  "sourceFile": "surf\\_items",
+  "usage": "<player> itemUnlocked(<num>)",
+  "description": [
+    "Checks if a player has unlocked an item."
+  ],
+  "params": [
+    {
+      "name": "num",
+      "type": "int",
+      "description": [
+        "Item ID (as found in itemTable.csv)."
+      ],
+      "optional": false
+    }
+  ],
+  "return": "bool",
+  "example": [
+    "if (self surf\\_items::itemUnlocked(id)) {",
+    "  self setStat(100, id);",
+    "  self.pers[\"weapon\"] = id;",
+    "}"
+  ]
+}

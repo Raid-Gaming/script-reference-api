@@ -1,0 +1,60 @@
+{
+  "sourceFile": "surf\\_dvar",
+  "usage": "addDvar(<scriptName>, <varName>, <varDefault>, <min>, <max>, <type>)",
+  "description": [
+    "Get the difficulty level of a map."
+  ],
+  "params": [
+    {
+      "name": "scriptName",
+      "type": "string",
+      "description": [
+        "Name to be used as the key for level.dvar[]."
+      ],
+      "optional": false
+    },
+    {
+      "name": "varName",
+      "type": "string",
+      "description": [
+        "Name of the dvar."
+      ],
+      "optional": false
+    },
+    {
+      "name": "varDefault",
+      "type": "Any",
+      "description": [
+        "Default value."
+      ],
+      "optional": false
+    },
+    {
+      "name": "min",
+      "type": "Any",
+      "description": [
+        "Minimum value (use \"\" if string)."
+      ],
+      "optional": false
+    },
+    {
+      "name": "max",
+      "type": "Any",
+      "description": [
+        "Maximum value (use\"\" if string)."
+      ],
+      "optional": false
+    },
+    {
+      "name": "type",
+      "type": "string",
+      "description": [
+        "Type (int/float/string)."
+      ],
+      "optional": false
+    }
+  ],
+  "example": [
+    "addDvar(\"surf_timelimit\", \"surf_timelimit\", 45, 1, 12000, \"int\");"
+  ]
+}

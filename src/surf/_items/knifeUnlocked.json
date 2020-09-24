@@ -1,0 +1,24 @@
+{
+  "sourceFile": "surf\\_items",
+  "usage": "<player> knifeUnlocked(<num>)",
+  "description": [
+    "Checks if a player has unlocked a knife."
+  ],
+  "params": [
+    {
+      "name": "num",
+      "type": "int",
+      "description": [
+        "Knife ID (as found in knivesTable.csv)."
+      ],
+      "optional": false
+    }
+  ],
+  "return": "bool",
+  "example": [
+    "if (self surf\\_items::knifeUnlocked(id)) {",
+    "  self setStat(103, id);",
+    "  self.pers[\"knife\"] = id;",
+    "}"
+  ]
+}

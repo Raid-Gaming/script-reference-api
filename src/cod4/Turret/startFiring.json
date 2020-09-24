@@ -1,0 +1,10 @@
+{
+  "usage": "<entity> startFiring()",
+  "description": [
+    "Starts a turret firing."
+  ],
+  "example": [
+    "mg42 startFiring();"
+  ],
+  "engine": "SP"
+}

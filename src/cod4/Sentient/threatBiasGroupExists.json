@@ -1,0 +1,21 @@
+{
+  "usage": "threatBiasGroupExists(<group>)",
+  "description": [
+    "Check if a threat bias group exists."
+  ],
+  "params": [
+    {
+      "name": "group",
+      "type": "string",
+      "description": [
+        "Threat bias group name."
+      ],
+      "optional": true
+    }
+  ],
+  "return": "bool",
+  "example": [
+    "if (!threatBiasGroupExists(\"flanking_team\")) {\n  // Code\n}"
+  ],
+  "engine": "SP"
+}
