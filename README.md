@@ -17,9 +17,11 @@ Based on this structure the build process will generate index files you can use 
 
 ## Requirements
 
-This project uses the Node package manager "Yarn". You'll need it to install the necessary dependencies (mixing up package manager is advised against so unless you know what you're doing, avoid npm and stick to Yarn).
+This project uses the Node package manager "Yarn". You'll need it to install the necessary dependencies (mixing up package managers is advised against so unless you know what you're doing, avoid npm and stick to Yarn).
 
 Instructions on how to install Yarn can be found on the official website: [https://yarnpkg.com/](https://yarnpkg.com/)
+
+You'll also obviously need Node.js (duh): [https://nodejs.org/en/](https://nodejs.org/en/)
 
 ## Building
 
