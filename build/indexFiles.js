@@ -5,13 +5,22 @@ function isJSONFile(path) {
   return path.slice(-5) === '.json';
 }
 
-function getMethodNames(path) {
-  return readdirSync(path)
-    .filter((file) => {
-      const dir = resolve(path, file);
-      return statSync(dir).isFile() && isJSONFile(file);
-    })
-    .map((file) => file.slice(0, -5));
+function getMethods(path) {
+  const files = readdirSync(path).filter((file) => {
+    const dir = resolve(path, file);
+    return statSync(dir).isFile() && isJSONFile(file);
+  });
+
+  return files.map((file) => {
+    const dir = resolve(path, file);
+    const content = readFileSync(dir);
+    const { engine } = JSON.parse(content);
+
+    return {
+      name: file.slice(0, -5),
+      engine,
+    };
+  });
 }
 
 function getSubDirectories(path) {
@@ -35,7 +44,7 @@ function getCategoryMeta(path) {
 
 function buildNamespaceIndex(path) {
   const name = getDirectoryName(path);
-  const methods = getMethodNames(path);
+  const methods = getMethods(path);
   return { name, methods };
 }
 
