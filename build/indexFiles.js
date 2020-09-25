@@ -1,5 +1,5 @@
 const { readdirSync, readFileSync, statSync, writeFileSync } = require('fs');
-const { dirname, resolve, sep } = require('path');
+const { resolve, sep } = require('path');
 
 function isJSONFile(path) {
   return path.slice(-5) === '.json';
@@ -30,7 +30,7 @@ function getSubDirectories(path) {
 }
 
 function getDirectoryName(path) {
-  return dirname(path).split(sep).pop();
+  return path.split(sep).pop();
 }
 
 function getCategoryIndexPath(path) {
