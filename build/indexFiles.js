@@ -14,7 +14,7 @@ function getMethods(path) {
   return files.map((file) => {
     const dir = resolve(path, file);
     const content = JSON.parse(readFileSync(dir));
-    const { engine } = content;
+    const { engine, sourceFile } = content;
 
     const name = file.slice(0, -5);
     writeFileSync(dir, JSON.stringify({ name, ...content }));
@@ -22,6 +22,7 @@ function getMethods(path) {
     return {
       name: file.slice(0, -5),
       engine,
+      sourceFile,
     };
   });
 }
