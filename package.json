@@ -1,6 +1,6 @@
 {
   "name": "script-reference-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API generator for https://github.com/Raid-Gaming/script-reference",
   "main": "build.js",
   "repository": "https://github.com/Raid-Gaming/script-reference-api.git",

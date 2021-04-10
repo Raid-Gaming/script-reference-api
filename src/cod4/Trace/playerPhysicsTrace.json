@@ -1,28 +1,34 @@
 {
   "usage": "playerPhysicsTrace(<start>, <end>, <hit characters>, <ignore entity>)",
-  "description": [
-    "Physics trace using player capsule size, ignoring characters. Returns the end position vector"
-  ],
+  "description": ["Physics trace using player capsule size, ignoring characters. Returns the end position vector."],
   "params": [
     {
       "name": "start",
       "type": "Vector3",
-      "description": [
-        "The start point."
-      ],
+      "description": ["The start point."],
       "optional": false
     },
     {
       "name": "end",
       "type": "Vector3",
-      "description": [
-        "The end point."
-      ],
+      "description": ["The end point."],
       "optional": false
+    },
+    {
+      "name": "hit characters",
+      "type": "bool",
+      "description": ["Ignore characters in the physics trace."],
+      "optional": true
+    },
+    {
+      "name": "ignore entity",
+      "type": "entity",
+      "description": ["Ignore a specified entity in the physics trace."],
+      "optional": true
     }
   ],
   "return": "Vector3",
   "example": [
-    "endPos = playerPhysicsTrace(start, end);"
+    "trace = playerPhysicsTrace(self.carrier.origin + (0, 0, 20), self.carrier.origin - (0, 0, 2000), false, self.carrier.body);"
   ]
 }
