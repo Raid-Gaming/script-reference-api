@@ -1,28 +1,20 @@
 {
   "usage": "setMissionDvar(<dvar>, <value>)",
-  "description": [
-    "Changes the value of the specified mission dvar."
-  ],
+  "description": ["Changes the value of the specified mission dvar."],
   "params": [
     {
       "name": "dvar",
       "type": "string",
-      "description": [
-        "Dvar name."
-      ],
+      "description": ["Dvar name."],
       "optional": false
     },
     {
       "name": "value",
       "type": "int/float/string",
-      "description": [
-        "Dvar value."
-      ],
+      "description": ["Dvar value."],
       "optional": false
     }
   ],
-  "example": [
-    "setMissionDvar(\"mission_01\", 1);"
-  ],
+  "example": ["setMissionDvar(\"mission_01\", 1);"],
   "engine": "SP"
 }

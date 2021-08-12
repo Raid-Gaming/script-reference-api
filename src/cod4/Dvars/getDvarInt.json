@@ -1,20 +1,14 @@
 {
   "usage": "getDvarInt(<dvar>)",
-  "description": [
-    "Gets the value of a dvar, as an integer."
-  ],
+  "description": ["Gets the value of a dvar, as an integer."],
   "params": [
     {
       "name": "dvar",
       "type": "string",
-      "description": [
-        "The dvar name."
-      ],
+      "description": ["The dvar name."],
       "optional": false
     }
   ],
   "return": "int",
-  "example": [
-    "level.fogtype = getDvarInt(\"scr_fog_type\");"
-  ]
+  "example": ["level.fogtype = getDvarInt(\"scr_fog_type\");"]
 }

@@ -1,9 +1,5 @@
 {
   "usage": "<entity> hide()",
-  "description": [
-    "Hides a visible entity."
-  ],
-  "example": [
-    "brokenWindow hide();"
-  ]
+  "description": ["Hides a visible entity."],
+  "example": ["brokenWindow hide();"]
 }

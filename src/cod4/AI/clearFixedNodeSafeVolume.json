@@ -1,10 +1,6 @@
 {
   "usage": "<actor> clearFixedNodeSafeVolume()",
-  "description": [
-    "Clears this actor's fixed node safe volume."
-  ],
-  "example": [
-    "self clearFixedNodeSafeVolume()"
-  ],
+  "description": ["Clears this actor's fixed node safe volume."],
+  "example": ["self clearFixedNodeSafeVolume()"],
   "engine": "SP"
 }

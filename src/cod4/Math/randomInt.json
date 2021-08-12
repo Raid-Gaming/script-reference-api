@@ -1,20 +1,14 @@
 {
   "usage": "randomInt(<max>)",
-  "description": [
-    "Returns a random integer between 0 and max-1 inclusive."
-  ],
+  "description": ["Returns a random integer between 0 and max-1 inclusive."],
   "params": [
     {
       "name": "max",
       "type": "int",
-      "description": [
-        "The maximum integer size."
-      ],
+      "description": ["The maximum integer size."],
       "optional": false
     }
   ],
   "return": "int",
-  "example": [
-    "if (randomInt(100) > 50) {\n  // Code\n}"
-  ]
+  "example": ["if (randomInt(100) > 50) {\n  // Code\n}"]
 }

@@ -4,8 +4,6 @@
     "Return the default sun color for a level in an array of size 3. Index 0 is red, index 1 is green, and index 2 is blue."
   ],
   "return": "Array",
-  "example": [
-    "level.defaultSunLight = getMapSunLight();"
-  ],
+  "example": ["level.defaultSunLight = getMapSunLight();"],
   "engine": "SP"
 }

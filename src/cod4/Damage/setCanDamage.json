@@ -7,14 +7,10 @@
     {
       "name": "can damage",
       "type": "bool",
-      "description": [
-        "The can damage flag."
-      ],
+      "description": ["The can damage flag."],
       "optional": false
     }
   ],
-  "example": [
-    "self setCanDamage(true);"
-  ],
+  "example": ["self setCanDamage(true);"],
   "engine": "SP"
 }

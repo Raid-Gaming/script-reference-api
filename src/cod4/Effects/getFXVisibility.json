@@ -1,29 +1,21 @@
 {
   "usage": "getFXVisibility(<start>, <end>)",
-  "description": [
-    "Returns the amount of visibilty (0.0 - 1.0) between the start and end points."
-  ],
+  "description": ["Returns the amount of visibilty (0.0 - 1.0) between the start and end points."],
   "params": [
     {
       "name": "start",
       "type": "float",
-      "description": [
-        "Starting point."
-      ],
+      "description": ["Starting point."],
       "optional": false
     },
     {
       "name": "end",
       "type": "float",
-      "description": [
-        "Ending point."
-      ],
+      "description": ["Ending point."],
       "optional": false
     }
   ],
   "return": "float",
-  "example": [
-    "vis = getFXVisibility(start, end);"
-  ],
+  "example": ["vis = getFXVisibility(start, end);"],
   "engine": "SP"
 }

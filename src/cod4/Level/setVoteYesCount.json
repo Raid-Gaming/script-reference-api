@@ -1,20 +1,14 @@
 {
   "usage": "setVoteYesCount(<count>)",
-  "description": [
-    "Sets the number of Yes votes."
-  ],
+  "description": ["Sets the number of Yes votes."],
   "params": [
     {
       "name": "count",
       "type": "int",
-      "description": [
-        "Number of Yes votes."
-      ],
+      "description": ["Number of Yes votes."],
       "optional": false
     }
   ],
-  "example": [
-    "setVoteYesCount(0);"
-  ],
+  "example": ["setVoteYesCount(0);"],
   "engine": "MP"
 }

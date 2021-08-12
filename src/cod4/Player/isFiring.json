@@ -1,11 +1,7 @@
 {
   "usage": "<player> isFiring()",
-  "description": [
-    "Returns true if the player is currently using a weapon."
-  ],
+  "description": ["Returns true if the player is currently using a weapon."],
   "return": "bool",
-  "example": [
-    "if (level.player isFiring()) {\n  // Code\n}"
-  ],
+  "example": ["if (level.player isFiring()) {\n  // Code\n}"],
   "engine": "SP"
 }

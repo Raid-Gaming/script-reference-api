@@ -1,20 +1,14 @@
 {
   "usage": "weaponFireTime(<weapon>)",
-  "description": [
-    "Get the weapon fire time for the given weapon."
-  ],
+  "description": ["Get the weapon fire time for the given weapon."],
   "params": [
     {
       "name": "weapon",
       "type": "string",
-      "description": [
-        "The weapon name."
-      ],
+      "description": ["The weapon name."],
       "optional": false
     }
   ],
   "return": "float",
-  "example": [
-    "fireTime = weaponFireTime(\"mosin_nagant_sniper\");"
-  ]
+  "example": ["fireTime = weaponFireTime(\"mosin_nagant_sniper\");"]
 }

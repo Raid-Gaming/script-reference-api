@@ -1,19 +1,13 @@
 {
   "usage": "<player> giveMaxAmmo(<weapon>)",
-  "description": [
-    "Set the player's ammunition to the weapon's maximum ammunition."
-  ],
+  "description": ["Set the player's ammunition to the weapon's maximum ammunition."],
   "params": [
     {
       "name": "weapon",
       "type": "string",
-      "description": [
-        "The weapon name."
-      ],
+      "description": ["The weapon name."],
       "optional": false
     }
   ],
-  "example": [
-    "self giveMaxAmmo(self.pers[\"weapon\"]);"
-  ]
+  "example": ["self giveMaxAmmo(self.pers[\"weapon\"]);"]
 }

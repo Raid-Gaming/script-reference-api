@@ -1,20 +1,14 @@
 {
   "sourceFile": "surf\\_mod",
   "usage": "<player> trail(<fx>)",
-  "description": [
-    "Play an FX as a trail on a player."
-  ],
+  "description": ["Play an FX as a trail on a player."],
   "params": [
     {
       "name": "fx",
       "type": "int",
-      "description": [
-        "An effect ID returned by loadFX."
-      ],
+      "description": ["An effect ID returned by loadFX."],
       "optional": false
     }
   ],
-  "example": [
-    "self thread trail(level.trailInfo[self.pers[\"trail\"]][\"trail\"];"
-  ]
+  "example": ["self thread trail(level.trailInfo[self.pers[\"trail\"]][\"trail\"];"]
 }

@@ -1,29 +1,21 @@
 {
   "sourceFile": "surf\\_util",
   "usage": "addToArray(<array>, <value>)",
-  "description": [
-    "Add a value to an array."
-  ],
+  "description": ["Add a value to an array."],
   "params": [
     {
       "name": "array",
       "type": "Array",
-      "description": [
-        "Array to add a value to."
-      ],
+      "description": ["Array to add a value to."],
       "optional": false
     },
     {
       "name": "value",
       "type": "Any",
-      "description": [
-        "Value to add to the array."
-      ],
+      "description": ["Value to add to the array."],
       "optional": false
     }
   ],
   "return": "Array",
-  "example": [
-    "list = addToArray(list, \"Some value\");"
-  ]
+  "example": ["list = addToArray(list, \"Some value\");"]
 }

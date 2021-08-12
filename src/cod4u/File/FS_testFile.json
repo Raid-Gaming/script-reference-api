@@ -1,20 +1,14 @@
 {
   "usage": "FS_testFile(<filename>)",
-  "description": [
-    "Tests whether or not a file exists inside FS_gameDir."
-  ],
+  "description": ["Tests whether or not a file exists inside FS_gameDir."],
   "params": [
     {
       "name": "filename",
       "type": "string",
-      "description": [
-        "Filename inside FS_gameDir."
-      ],
+      "description": ["Filename inside FS_gameDir."],
       "optional": false
     }
   ],
   "return": "bool",
-  "example": [
-    "exists = FS_testFile(\"log.txt\");"
-  ]
+  "example": ["exists = FS_testFile(\"log.txt\");"]
 }

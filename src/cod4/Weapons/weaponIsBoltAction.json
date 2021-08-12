@@ -1,20 +1,14 @@
 {
   "usage": "weaponIsBoltAction(<weapon>)",
-  "description": [
-    "Get whether this weapon has a bolt action."
-  ],
+  "description": ["Get whether this weapon has a bolt action."],
   "params": [
     {
       "name": "weapon",
       "type": "string",
-      "description": [
-        "The weapon name."
-      ],
+      "description": ["The weapon name."],
       "optional": false
     }
   ],
   "return": "bool",
-  "example": [
-    "if (weaponIsBoltAction(\"m14_scoped\")) {\n  // Code\n}"
-  ]
+  "example": ["if (weaponIsBoltAction(\"m14_scoped\")) {\n  // Code\n}"]
 }

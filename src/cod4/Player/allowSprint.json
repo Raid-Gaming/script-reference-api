@@ -1,19 +1,13 @@
 {
   "usage": "<player> allowSprint(<allow>)",
-  "description": [
-    "Sets whether the player can sprint."
-  ],
+  "description": ["Sets whether the player can sprint."],
   "params": [
     {
       "name": "allow",
       "type": "bool",
-      "description": [
-        "A boolean: true if the player can sprint, false otherwise."
-      ],
+      "description": ["A boolean: true if the player can sprint, false otherwise."],
       "optional": false
     }
   ],
-  "example": [
-    "level.player allowSprint(false);"
-  ]
+  "example": ["level.player allowSprint(false);"]
 }

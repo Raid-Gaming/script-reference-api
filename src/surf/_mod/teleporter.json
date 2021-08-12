@@ -1,9 +1,7 @@
 {
   "sourceFile": "surf\\_mod",
   "usage": "<entity> teleporter()",
-  "description": [
-    "Creates a teleporter from an entity with given kvp: \"target\" \"target_entity\""
-  ],
+  "description": ["Creates a teleporter from an entity with given kvp: \"target\" \"target_entity\""],
   "example": [
     "teleporters = getEntArray(\"trigger_teleport\", \"targetname\");",
     "for (i = 0; i < teleporters.size; i++) {",

@@ -1,20 +1,14 @@
 {
   "usage": "<entity> setShadowHint(<priority>)",
-  "description": [
-    "Sets the shadow hint for the entity."
-  ],
+  "description": ["Sets the shadow hint for the entity."],
   "params": [
     {
       "name": "priority",
       "type": "string",
-      "description": [
-        "\"normal\", \"never\", \"high_priority\", \"low_priority\", \"always\" or \"receiver\""
-      ],
+      "description": ["\"normal\", \"never\", \"high_priority\", \"low_priority\", \"always\" or \"receiver\""],
       "optional": false
     }
   ],
-  "example": [
-    "tankGun setShadowHint(\"normal\");"
-  ],
+  "example": ["tankGun setShadowHint(\"normal\");"],
   "engine": "SP"
 }

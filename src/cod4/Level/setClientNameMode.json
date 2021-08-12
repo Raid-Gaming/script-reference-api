@@ -7,14 +7,10 @@
     {
       "name": "name mode",
       "type": "string",
-      "description": [
-        "Either \"auto_change\" or \"manual_change\"."
-      ],
+      "description": ["Either \"auto_change\" or \"manual_change\"."],
       "optional": false
     }
   ],
-  "example": [
-    "setClientNameMode(\"auto_change\");"
-  ],
+  "example": ["setClientNameMode(\"auto_change\");"],
   "engine": "MP"
 }

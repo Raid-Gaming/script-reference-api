@@ -1,15 +1,11 @@
 {
   "usage": "visionSetNight(<visionset name>, <transition time>)",
-  "description": [
-    "Sets the vision preset to use for players' night vision view."
-  ],
+  "description": ["Sets the vision preset to use for players' night vision view."],
   "params": [
     {
       "name": "visionset name",
       "type": "string",
-      "description": [
-        "Vision to transition to."
-      ],
+      "description": ["Vision to transition to."],
       "optional": false
     },
     {
@@ -21,7 +17,5 @@
       "optional": true
     }
   ],
-  "example": [
-    "visionSetNight(\"armada_nvg\", 1.5);"
-  ]
+  "example": ["visionSetNight(\"armada_nvg\", 1.5);"]
 }

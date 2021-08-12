@@ -7,22 +7,16 @@
     {
       "name": "sight position",
       "type": "Vector3",
-      "description": [
-        "The point the sight starts at."
-      ],
+      "description": ["The point the sight starts at."],
       "optional": false
     },
     {
       "name": "ignore entity",
       "type": "Entity",
-      "description": [
-        "An entity to ignore when doing the traces."
-      ],
+      "description": ["An entity to ignore when doing the traces."],
       "optional": true
     }
   ],
   "return": "float",
-  "example": [
-    "visibilityAmount = player sightConeTrace(eye.origin, eye);"
-  ]
+  "example": ["visibilityAmount = player sightConeTrace(eye.origin, eye);"]
 }

@@ -7,13 +7,9 @@
     {
       "name": "vector",
       "type": "Vector3",
-      "description": [
-        "A vector."
-      ]
+      "description": ["A vector."]
     }
   ],
   "return": "float",
-  "example": [
-    "dist = lengthSquared(models[j].origin - center);"
-  ]
+  "example": ["dist = lengthSquared(models[j].origin - center);"]
 }

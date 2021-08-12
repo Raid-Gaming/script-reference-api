@@ -1,10 +1,6 @@
 {
   "usage": "preCacheNightvisionCodeAssets()",
-  "description": [
-    "Precaches assets needed by code for the Nightvision features."
-  ],
-  "example": [
-    "preCacheNightvisionCodeAssets();"
-  ],
+  "description": ["Precaches assets needed by code for the Nightvision features."],
+  "example": ["preCacheNightvisionCodeAssets();"],
   "engine": "SP"
 }

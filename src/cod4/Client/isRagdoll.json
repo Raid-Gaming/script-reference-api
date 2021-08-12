@@ -1,11 +1,7 @@
 {
   "usage": "<player> isRagdoll()",
-  "description": [
-    "Returns true if the entity is a ragdoll body, false otherwise."
-  ],
+  "description": ["Returns true if the entity is a ragdoll body, false otherwise."],
   "return": "bool",
-  "example": [
-    "self isRagdoll();"
-  ],
+  "example": ["self isRagdoll();"],
   "engine": "MP"
 }

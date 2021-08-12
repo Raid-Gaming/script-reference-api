@@ -1,8 +1,6 @@
 {
   "usage": "<entity> detonate(<newOwner>)",
-  "description": [
-    "Causes a grenade to explode. Must be called on a grenade."
-  ],
+  "description": ["Causes a grenade to explode. Must be called on a grenade."],
   "params": [
     {
       "name": "newOwner",
@@ -13,7 +11,5 @@
       "optional": true
     }
   ],
-  "example": [
-    "grenade detonate(attacker);"
-  ]
+  "example": ["grenade detonate(attacker);"]
 }

@@ -7,13 +7,9 @@
     {
       "name": "name",
       "type": "string",
-      "description": [
-        "Name of the shell shock effect to precache."
-      ],
+      "description": ["Name of the shell shock effect to precache."],
       "optional": false
     }
   ],
-  "example": [
-    "preCacheShellShock(\"ac130\");"
-  ]
+  "example": ["preCacheShellShock(\"ac130\");"]
 }

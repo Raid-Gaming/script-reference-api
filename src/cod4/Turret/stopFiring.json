@@ -1,10 +1,6 @@
 {
   "usage": "<entity> stopFiring()",
-  "description": [
-    "Stops a turret firing."
-  ],
-  "example": [
-    "mg42 stopFiring();"
-  ],
+  "description": ["Stops a turret firing."],
+  "example": ["mg42 stopFiring();"],
   "engine": "SP"
 }

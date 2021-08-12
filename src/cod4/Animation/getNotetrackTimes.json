@@ -7,22 +7,16 @@
     {
       "name": "animation",
       "type": "animation",
-      "description": [
-        "Reference to an animation."
-      ],
+      "description": ["Reference to an animation."],
       "optional": false
     },
     {
       "name": "note track",
       "type": "string",
-      "description": [
-        "A constant string with the name of the note track"
-      ],
+      "description": ["A constant string with the name of the note track"],
       "optional": false
     }
   ],
   "return": "Array",
-  "example": [
-    "exitAlignTimes = getNotetrackTimes(exitAnim, \"exit_align\");"
-  ]
+  "example": ["exitAlignTimes = getNotetrackTimes(exitAnim, \"exit_align\");"]
 }

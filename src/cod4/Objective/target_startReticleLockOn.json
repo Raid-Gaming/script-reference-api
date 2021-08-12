@@ -7,22 +7,16 @@
     {
       "name": "target entity",
       "type": "Entity",
-      "description": [
-        "The entity that is the target."
-      ],
+      "description": ["The entity that is the target."],
       "optional": false
     },
     {
       "name": "duration",
       "type": "float",
-      "description": [
-        "The amount of time between now and fully locked-on, in seconds."
-      ],
+      "description": ["The amount of time between now and fully locked-on, in seconds."],
       "optional": false
     }
   ],
-  "example": [
-    "target_startReticleLockOn(enemyChopper, 4);"
-  ],
+  "example": ["target_startReticleLockOn(enemyChopper, 4);"],
   "engine": "SP"
 }

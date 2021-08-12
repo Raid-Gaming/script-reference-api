@@ -1,20 +1,14 @@
 {
   "usage": "<actor> exitProne(<interpolation time>)",
-  "description": [
-    "Set the actor to exit the prone position."
-  ],
+  "description": ["Set the actor to exit the prone position."],
   "params": [
     {
       "name": "interpolation time",
       "type": "float",
-      "description": [
-        "Time to exit prone in seconds."
-      ],
+      "description": ["Time to exit prone in seconds."],
       "optional": false
     }
   ],
-  "example": [
-    "self exitProne(1.0);"
-  ],
+  "example": ["self exitProne(1.0);"],
   "engine": "SP"
 }

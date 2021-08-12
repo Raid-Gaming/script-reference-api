@@ -1,19 +1,13 @@
 {
   "usage": "<entity> devAddYaw(<yaw angle>)",
-  "description": [
-    "Add yaw in local space. This is just for development purposes and doesn't interpolate."
-  ],
+  "description": ["Add yaw in local space. This is just for development purposes and doesn't interpolate."],
   "params": [
     {
       "name": "yaw angle",
       "type": "float",
-      "description": [
-        "The change in yaw in degrees."
-      ],
+      "description": ["The change in yaw in degrees."],
       "optional": false
     }
   ],
-  "example": [
-    "ent devAddYaw(15);"
-  ]
+  "example": ["ent devAddYaw(15);"]
 }

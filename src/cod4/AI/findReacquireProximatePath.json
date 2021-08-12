@@ -13,8 +13,6 @@
       "optional": true
     }
   ],
-  "example": [
-    "self findReacquireProximatePath();"
-  ],
+  "example": ["self findReacquireProximatePath();"],
   "engine": "SP"
 }

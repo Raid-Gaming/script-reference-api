@@ -1,13 +1,7 @@
 {
   "sourceFile": "surf\\_vip",
   "usage": "<player> isVip()",
-  "description": [
-    "Check if a player is a VIP."
-  ],
+  "description": ["Check if a player is a VIP."],
   "return": "bool",
-  "example": [
-    "if (self surf\\_vip::isVip()) {",
-    "  amount *= 2;",
-    "}"
-  ]
+  "example": ["if (self surf\\_vip::isVip()) {", "  amount *= 2;", "}"]
 }

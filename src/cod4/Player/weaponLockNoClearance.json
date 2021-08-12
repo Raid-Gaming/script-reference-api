@@ -7,14 +7,10 @@
     {
       "name": "bool",
       "type": "bool",
-      "description": [
-        "Values: true or false."
-      ],
+      "description": ["Values: true or false."],
       "optional": false
     }
   ],
-  "example": [
-    "level.player weaponLockNoClearance(true);"
-  ],
+  "example": ["level.player weaponLockNoClearance(true);"],
   "engine": "SP"
 }

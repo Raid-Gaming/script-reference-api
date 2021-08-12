@@ -1,19 +1,13 @@
 {
   "usage": "<player> setMoveSpeedScale(<scale>)",
-  "description": [
-    "Scales player movement speed by this amount."
-  ],
+  "description": ["Scales player movement speed by this amount."],
   "params": [
     {
       "name": "scale",
       "type": "float",
-      "description": [
-        "The amount to scale player movement by."
-      ],
+      "description": ["The amount to scale player movement by."],
       "optional": false
     }
   ],
-  "example": [
-    "self setMoveSpeedScale(1.5);"
-  ]
+  "example": ["self setMoveSpeedScale(1.5);"]
 }

@@ -1,8 +1,6 @@
 {
   "usage": "<player> allowSpectateTeam(<team>, <spectate>)",
-  "description": [
-    "Set whether the player can spectate the given team."
-  ],
+  "description": ["Set whether the player can spectate the given team."],
   "params": [
     {
       "name": "team",
@@ -15,14 +13,10 @@
     {
       "name": "spectator",
       "type": "bool",
-      "description": [
-        "A boolean value describing whether this player can spectate on this team."
-      ],
+      "description": ["A boolean value describing whether this player can spectate on this team."],
       "optional": false
     }
   ],
-  "example": [
-    "self allowSpectateTeam(\"axis\", true);"
-  ],
+  "example": ["self allowSpectateTeam(\"axis\", true);"],
   "engine": "MP"
 }

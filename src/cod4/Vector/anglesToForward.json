@@ -1,19 +1,13 @@
 {
   "usage": "anglesToForward(<angles>)",
-  "description": [
-    "Returns the forward vector corresponding to a set of angles."
-  ],
+  "description": ["Returns the forward vector corresponding to a set of angles."],
   "params": [
     {
       "name": "angles",
       "type": "Vector3",
-      "description": [
-        "A set of angles."
-      ]
+      "description": ["A set of angles."]
     }
   ],
   "return": "Vector3",
-  "example": [
-    "forward = anglesToForward(angles);"
-  ]
+  "example": ["forward = anglesToForward(angles);"]
 }

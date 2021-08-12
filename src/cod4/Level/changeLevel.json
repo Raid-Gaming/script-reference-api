@@ -1,36 +1,26 @@
 {
   "usage": "changeLevel(<mapname>, <persistent>, <exitTime>)",
-  "description": [
-    "Changes to the new level."
-  ],
+  "description": ["Changes to the new level."],
   "params": [
     {
       "name": "mapname",
       "type": "string",
-      "description": [
-        "The name of the map to change to."
-      ],
+      "description": ["The name of the map to change to."],
       "optional": false
     },
     {
       "name": "persistent",
       "type": "bool",
-      "description": [
-        "Flag allowing player to keep their inventory through the transition."
-      ],
+      "description": ["Flag allowing player to keep their inventory through the transition."],
       "optional": true
     },
     {
       "name": "exitTime",
       "type": "float",
-      "description": [
-        "Time in seconds of the exit fade."
-      ],
+      "description": ["Time in seconds of the exit fade."],
       "optional": true
     }
   ],
-  "example": [
-    "changeLevel(\"burnville\", false);"
-  ],
+  "example": ["changeLevel(\"burnville\", false);"],
   "engine": "SP"
 }

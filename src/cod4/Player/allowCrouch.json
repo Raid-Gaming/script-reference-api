@@ -1,20 +1,14 @@
 {
   "usage": "<player> allowCrouch(<allow>)",
-  "description": [
-    "Sets whether the player can crouch."
-  ],
+  "description": ["Sets whether the player can crouch."],
   "params": [
     {
       "name": "allow",
       "type": "bool",
-      "description": [
-        "A boolean: true if the player can crouch, false otherwise."
-      ],
+      "description": ["A boolean: true if the player can crouch, false otherwise."],
       "optional": false
     }
   ],
-  "example": [
-    "level.player allowCrouch(false);"
-  ],
+  "example": ["level.player allowCrouch(false);"],
   "engine": "SP"
 }

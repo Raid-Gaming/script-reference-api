@@ -1,19 +1,13 @@
 {
   "usage": "objective_delete(<objective number>)",
-  "description": [
-    "Removes an objective"
-  ],
+  "description": ["Removes an objective"],
   "params": [
     {
       "name": "objective number",
       "type": "int",
-      "description": [
-        "The number of the objective to remove."
-      ],
+      "description": ["The number of the objective to remove."],
       "optional": false
     }
   ],
-  "example": [
-    "objective_delete(1);"
-  ]
+  "example": ["objective_delete(1);"]
 }

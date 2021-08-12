@@ -13,8 +13,6 @@
       "optional": false
     }
   ],
-  "example": [
-    "objective_additionalCurrent(level.flakObjectiveID);"
-  ],
+  "example": ["objective_additionalCurrent(level.flakObjectiveID);"],
   "engine": "SP"
 }

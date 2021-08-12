@@ -1,11 +1,7 @@
 {
   "usage": "target_getArray()",
-  "description": [
-    "Gets an array of entities that are set as targets."
-  ],
+  "description": ["Gets an array of entities that are set as targets."],
   "return": "Array",
-  "example": [
-    "targets = target_getArray();"
-  ],
+  "example": ["targets = target_getArray();"],
   "engine": "SP"
 }

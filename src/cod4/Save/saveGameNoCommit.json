@@ -7,39 +7,29 @@
     {
       "name": "filename",
       "type": "string",
-      "description": [
-        "The name of the file. If not used then the file will be automatically named."
-      ],
+      "description": ["The name of the file. If not used then the file will be automatically named."],
       "optional": true
     },
     {
       "name": "description",
       "type": "string",
-      "description": [
-        "A description of the savegame."
-      ],
+      "description": ["A description of the savegame."],
       "optional": true
     },
     {
       "name": "screenshot",
       "type": "string",
-      "description": [
-        "The name of the screenshot file. If not used then the file will be automatically named."
-      ],
+      "description": ["The name of the screenshot file. If not used then the file will be automatically named."],
       "optional": true
     },
     {
       "name": "supressPlayerNotify",
       "type": "bool",
-      "description": [
-        "When true, player will not get a \"Checkpoint Reached\" print on their screen."
-      ],
+      "description": ["When true, player will not get a \"Checkpoint Reached\" print on their screen."],
       "optional": true
     }
   ],
   "return": "int",
-  "example": [
-    "id = saveGameNoCommit(\"Chateau\" + nodeNum, \"Documents Obtained\");"
-  ],
+  "example": ["id = saveGameNoCommit(\"Chateau\" + nodeNum, \"Documents Obtained\");"],
   "engine": "SP"
 }

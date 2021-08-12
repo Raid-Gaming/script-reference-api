@@ -1,20 +1,14 @@
 {
   "usage": "FS_remove(<filename>)",
-  "description": [
-    "Deletes a file inside FS_gameDir."
-  ],
+  "description": ["Deletes a file inside FS_gameDir."],
   "params": [
     {
       "name": "filename",
       "type": "string",
-      "description": [
-        "Filename inside FS_gameDir."
-      ],
+      "description": ["Filename inside FS_gameDir."],
       "optional": false
     }
   ],
   "return": "bool",
-  "example": [
-    "FS_remove(\"log.txt\");"
-  ]
+  "example": ["FS_remove(\"log.txt\");"]
 }

@@ -1,43 +1,31 @@
 {
   "usage": "<entity> rotateRoll(<roll angle>, <time>, <acceleration time>, <deceleration time>)",
-  "description": [
-    "Rotate this entity to the given roll relative to its starting angles."
-  ],
+  "description": ["Rotate this entity to the given roll relative to its starting angles."],
   "params": [
     {
       "name": "roll angle",
       "type": "float",
-      "description": [
-        "The amount of degrees to rotate the entity by."
-      ],
+      "description": ["The amount of degrees to rotate the entity by."],
       "optional": false
     },
     {
       "name": "time",
       "type": "float",
-      "description": [
-        "The time to move the entity in seconds."
-      ],
+      "description": ["The time to move the entity in seconds."],
       "optional": false
     },
     {
       "name": "acceleration time",
       "type": "float",
-      "description": [
-        "The time spent accelerating."
-      ],
+      "description": ["The time spent accelerating."],
       "optional": true
     },
     {
       "name": "deceleration time",
       "type": "float",
-      "description": [
-        "The time spent decelerating."
-      ],
+      "description": ["The time spent decelerating."],
       "optional": true
     }
   ],
-  "example": [
-    "self rotateRoll((2 * 1500 + 3 * randomFloat(2500)) * -1, 5, 0, 0);"
-  ]
+  "example": ["self rotateRoll((2 * 1500 + 3 * randomFloat(2500)) * -1, 5, 0, 0);"]
 }

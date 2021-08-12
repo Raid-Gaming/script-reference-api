@@ -1,20 +1,14 @@
 {
   "usage": "getEntByNum(<entity number>)",
-  "description": [
-    "Gets an entity by its entity number."
-  ],
+  "description": ["Gets an entity by its entity number."],
   "params": [
     {
       "name": "entity number",
       "type": "int",
-      "description": [
-        "The number of the entity to get."
-      ],
+      "description": ["The number of the entity to get."],
       "optional": false
     }
   ],
   "return": "Entity",
-  "example": [
-    "entity = getEntByNum(entNum);"
-  ]
+  "example": ["entity = getEntByNum(entNum);"]
 }

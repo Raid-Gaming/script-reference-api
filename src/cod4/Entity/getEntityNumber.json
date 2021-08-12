@@ -1,10 +1,6 @@
 {
   "usage": "<entity> getEntityNumber()",
-  "description": [
-    "Gets the entity number of this entity."
-  ],
+  "description": ["Gets the entity number of this entity."],
   "return": "int",
-  "example": [
-    "selfNum = self getEntityNumber();"
-  ]
+  "example": ["selfNum = self getEntityNumber();"]
 }

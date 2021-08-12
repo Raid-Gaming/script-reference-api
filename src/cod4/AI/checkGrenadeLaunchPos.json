@@ -7,23 +7,17 @@
     {
       "name": "barrel offset",
       "type": "Vector3",
-      "description": [
-        "The estimated offset of the grenade launcher barrel."
-      ],
+      "description": ["The estimated offset of the grenade launcher barrel."],
       "optional": false
     },
     {
       "name": "targetpos",
       "type": "Vector3",
-      "description": [
-        "The target position."
-      ],
+      "description": ["The target position."],
       "optional": false
     }
   ],
   "return": "Vector3",
-  "example": [
-    "throwVel = self checkGrenadeLaunchPos(offset, targetPos);"
-  ],
+  "example": ["throwVel = self checkGrenadeLaunchPos(offset, targetPos);"],
   "engine": "SP"
 }

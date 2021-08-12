@@ -1,20 +1,14 @@
 {
   "usage": "aSin(<sin value>)",
-  "description": [
-    "Returns an angle corresponding to a particular sine value."
-  ],
+  "description": ["Returns an angle corresponding to a particular sine value."],
   "params": [
     {
       "name": "sin value",
       "type": "float",
-      "description": [
-        "A sine value."
-      ],
+      "description": ["A sine value."],
       "optional": false
     }
   ],
   "return": "float",
-  "example": [
-    "upAngle = aSin(upAmount);"
-  ]
+  "example": ["upAngle = aSin(upAmount);"]
 }

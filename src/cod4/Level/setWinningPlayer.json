@@ -1,20 +1,14 @@
 {
   "usage": "setWinningPlayer(<player>)",
-  "description": [
-    "Sets a player to be the winner."
-  ],
+  "description": ["Sets a player to be the winner."],
   "params": [
     {
       "name": "player",
       "type": "Entity",
-      "description": [
-        "The player to set as the winning player."
-      ],
+      "description": ["The player to set as the winning player."],
       "optional": false
     }
   ],
-  "example": [
-    "setWinningPlayer(player);"
-  ],
+  "example": ["setWinningPlayer(player);"],
   "engine": "MP"
 }

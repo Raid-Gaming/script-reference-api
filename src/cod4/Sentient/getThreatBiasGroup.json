@@ -1,11 +1,7 @@
 {
   "usage": "getThreatBiasGroup()",
-  "description": [
-    "Get the threat bias group of an AI or player."
-  ],
+  "description": ["Get the threat bias group of an AI or player."],
   "return": "string",
-  "example": [
-    "group = self getThreatBiasGroup();"
-  ],
+  "example": ["group = self getThreatBiasGroup();"],
   "engine": "SP"
 }

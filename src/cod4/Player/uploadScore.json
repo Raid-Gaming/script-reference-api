@@ -1,28 +1,20 @@
 {
   "usage": "<player> uploadScore(<mission>, <score>)",
-  "description": [
-    "Upload arcade mode score to XBLIVE leaderboards."
-  ],
+  "description": ["Upload arcade mode score to XBLIVE leaderboards."],
   "params": [
     {
       "name": "mission",
       "type": "int",
-      "description": [
-        "Mission index."
-      ],
+      "description": ["Mission index."],
       "optional": false
     },
     {
       "name": "score",
       "type": "int",
-      "description": [
-        "Score for that mission."
-      ],
+      "description": ["Score for that mission."],
       "optional": false
     }
   ],
-  "example": [
-    "level.player uploadScore(0, 100);"
-  ],
+  "example": ["level.player uploadScore(0, 100);"],
   "engine": "SP"
 }

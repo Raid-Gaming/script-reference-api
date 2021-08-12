@@ -7,22 +7,16 @@
     {
       "name": "animation",
       "type": "animation",
-      "description": [
-        "The animation or animtree node to clear."
-      ],
+      "description": ["The animation or animtree node to clear."],
       "optional": false
     },
     {
       "name": "time",
       "type": "float",
-      "description": [
-        "The blending time for the clear."
-      ],
+      "description": ["The blending time for the clear."],
       "optional": false
     }
   ],
-  "example": [
-    "self clearAnim(%root, 0);"
-  ],
+  "example": ["self clearAnim(%root, 0);"],
   "engine": "SP"
 }

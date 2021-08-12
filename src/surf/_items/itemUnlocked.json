@@ -1,16 +1,12 @@
 {
   "sourceFile": "surf\\_items",
   "usage": "<player> itemUnlocked(<num>)",
-  "description": [
-    "Checks if a player has unlocked an item."
-  ],
+  "description": ["Checks if a player has unlocked an item."],
   "params": [
     {
       "name": "num",
       "type": "int",
-      "description": [
-        "Item ID (as found in itemTable.csv)."
-      ],
+      "description": ["Item ID (as found in itemTable.csv)."],
       "optional": false
     }
   ],

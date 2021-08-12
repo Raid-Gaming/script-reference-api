@@ -1,20 +1,14 @@
 {
   "usage": "setWinningTeam(<team>)",
-  "description": [
-    "Sets a team to be the winner."
-  ],
+  "description": ["Sets a team to be the winner."],
   "params": [
     {
       "name": "team",
       "type": "string",
-      "description": [
-        "The team name of the winning team. Must be \"axis\", \"allies\" or \"none\"."
-      ],
+      "description": ["The team name of the winning team. Must be \"axis\", \"allies\" or \"none\"."],
       "optional": false
     }
   ],
-  "example": [
-    "setWinningTeam(\"allies\");"
-  ],
+  "example": ["setWinningTeam(\"allies\");"],
   "engine": "MP"
 }

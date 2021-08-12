@@ -1,20 +1,14 @@
 {
   "usage": "<entity> showToPlayer(<player>)",
-  "description": [
-    "Show the entity to a given client."
-  ],
+  "description": ["Show the entity to a given client."],
   "params": [
     {
       "name": "player",
       "type": "Entity",
-      "description": [
-        "The player to show the entity to."
-      ],
+      "description": ["The player to show the entity to."],
       "optional": false
     }
   ],
-  "example": [
-    "self showToPlayer(player);"
-  ],
+  "example": ["self showToPlayer(player);"],
   "engine": "MP"
 }

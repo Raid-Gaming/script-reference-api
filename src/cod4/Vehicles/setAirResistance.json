@@ -7,13 +7,9 @@
     {
       "name": "max air resistance speed",
       "type": "float",
-      "description": [
-        "Speed at which air resistance maxes out (MPH)."
-      ],
+      "description": ["Speed at which air resistance maxes out (MPH)."],
       "optional": false
     }
   ],
-  "example": [
-    "self setAirResistance(60);"
-  ]
+  "example": ["self setAirResistance(60);"]
 }

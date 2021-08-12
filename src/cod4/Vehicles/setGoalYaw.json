@@ -7,13 +7,9 @@
     {
       "name": "yaw",
       "type": "float",
-      "description": [
-        "The yaw direction of the target."
-      ],
+      "description": ["The yaw direction of the target."],
       "optional": false
     }
   ],
-  "example": [
-    "self setGoalYaw(node.angles[1]);"
-  ]
+  "example": ["self setGoalYaw(node.angles[1]);"]
 }

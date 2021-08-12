@@ -1,12 +1,6 @@
 {
   "usage": "<player> leanRightButtonPressed()",
-  "description": [
-    "Checks if a player is pressing the lean right button."
-  ],
+  "description": ["Checks if a player is pressing the lean right button."],
   "return": "bool",
-  "example": [
-    "if (self leanRightButtonPressed()) {",
-    "  // Code",
-    "}"
-  ]
+  "example": ["if (self leanRightButtonPressed()) {", "  // Code", "}"]
 }

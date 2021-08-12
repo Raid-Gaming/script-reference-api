@@ -1,10 +1,6 @@
 {
   "usage": "<player> getPlayerAngles()",
-  "description": [
-    "Get the player's angles."
-  ],
+  "description": ["Get the player's angles."],
   "return": "Vector3",
-  "example": [
-    "angles = level.player getPlayerAngles();"
-  ]
+  "example": ["angles = level.player getPlayerAngles();"]
 }

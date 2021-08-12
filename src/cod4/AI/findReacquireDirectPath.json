@@ -1,8 +1,6 @@
 {
   "usage": "<actor> findReacquireDirectPath(<ignore suppression>)",
-  "description": [
-    "Finds a path directly to the enemy. Call reacquireMove to use the path."
-  ],
+  "description": ["Finds a path directly to the enemy. Call reacquireMove to use the path."],
   "params": [
     {
       "name": "ignore suppression",
@@ -13,8 +11,6 @@
       "optional": true
     }
   ],
-  "example": [
-    "self findReacquireDirectPath();"
-  ],
+  "example": ["self findReacquireDirectPath();"],
   "engine": "SP"
 }

@@ -1,10 +1,6 @@
 {
   "usage": "getEpochTime()",
-  "description": [
-    "Gets the current time in seconds since 01/01/1970 UTC (UNIX Epoch time)."
-  ],
+  "description": ["Gets the current time in seconds since 01/01/1970 UTC (UNIX Epoch time)."],
   "return": "int",
-  "example": [
-    "time = getEpochTime();"
-  ]
+  "example": ["time = getEpochTime();"]
 }

@@ -1,27 +1,19 @@
 {
   "usage": "<player> setWeaponSlotWeapon(<weapon slot>, <weapon>)",
-  "description": [
-    "Sets the weapon in the given slot."
-  ],
+  "description": ["Sets the weapon in the given slot."],
   "params": [
     {
       "name": "weapon slot",
       "type": "string",
-      "description": [
-        "Valid weaponslots are \"primary\" and \"primaryb\"."
-      ],
+      "description": ["Valid weaponslots are \"primary\" and \"primaryb\"."],
       "optional": false
     },
     {
       "name": "weapon",
       "type": "string",
-      "description": [
-        "The name of the weapon to use in this slot."
-      ],
+      "description": ["The name of the weapon to use in this slot."],
       "optional": false
     }
   ],
-  "example": [
-    "level.player setWeaponSlotWeapon(\"primary\", \"m16_sp\");"
-  ]
+  "example": ["level.player setWeaponSlotWeapon(\"primary\", \"m16_sp\");"]
 }

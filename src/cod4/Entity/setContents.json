@@ -1,20 +1,14 @@
 {
   "usage": "<entity> setContents(<contents>)",
-  "description": [
-    "Sets the contents of an entity. Returns the old contents."
-  ],
+  "description": ["Sets the contents of an entity. Returns the old contents."],
   "params": [
     {
       "name": "contents",
       "type": "int",
-      "description": [
-        "Description of the contents of this entity."
-      ],
+      "description": ["Description of the contents of this entity."],
       "optional": false
     }
   ],
   "return": "int",
-  "example": [
-    "level.solid setContents(1);"
-  ]
+  "example": ["level.solid setContents(1);"]
 }

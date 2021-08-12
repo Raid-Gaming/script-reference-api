@@ -21,8 +21,6 @@
       "optional": false
     }
   ],
-  "example": [
-    "self animMode(\"gravity\");"
-  ],
+  "example": ["self animMode(\"gravity\");"],
   "engine": "SP"
 }

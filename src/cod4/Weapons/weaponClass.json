@@ -7,14 +7,10 @@
     {
       "name": "weapon",
       "type": "string",
-      "description": [
-        "The weapon name."
-      ],
+      "description": ["The weapon name."],
       "optional": false
     }
   ],
   "return": "string",
-  "example": [
-    "if (weaponClass(\"m16_basic\") == \"rifle\") {\n  // Code\n}"
-  ]
+  "example": ["if (weaponClass(\"m16_basic\") == \"rifle\") {\n  // Code\n}"]
 }

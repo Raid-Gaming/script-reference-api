@@ -1,9 +1,7 @@
 {
   "sourceFile": "surf\\_bunnyhop",
   "usage": "<player> inNoHopZone()",
-  "description": [
-    "Checks if a player is in a zone where bunny hopping is disallowed."
-  ],
+  "description": ["Checks if a player is in a zone where bunny hopping is disallowed."],
   "return": "bool",
   "example": [
     "if (self inNoHopZone() && playerSpeed > 320) {",

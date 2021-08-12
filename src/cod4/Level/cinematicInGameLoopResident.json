@@ -1,20 +1,14 @@
 {
   "usage": "cinematicInGameLoopResident(<cinematic name>)",
-  "description": [
-    "Play the given cinematic in a loop, without blocking."
-  ],
+  "description": ["Play the given cinematic in a loop, without blocking."],
   "params": [
     {
       "name": "cinematic name",
       "type": "string",
-      "description": [
-        "The cinematic name."
-      ],
+      "description": ["The cinematic name."],
       "optional": false
     }
   ],
-  "example": [
-    "cinematicInGameLoopResident(\"cod_end\");"
-  ],
+  "example": ["cinematicInGameLoopResident(\"cod_end\");"],
   "engine": "SP"
 }

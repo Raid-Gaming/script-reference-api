@@ -1,23 +1,17 @@
 {
   "usage": "timeToString(<real time>, <zone>, <format>)",
-  "description": [
-    "Returns the current UNIX style time."
-  ],
+  "description": ["Returns the current UNIX style time."],
   "params": [
     {
       "name": "real time",
       "type": "int",
-      "description": [
-        "Time in seconds since 01/01/2012 UTC (as returned by getRealTime)."
-      ],
+      "description": ["Time in seconds since 01/01/2012 UTC (as returned by getRealTime)."],
       "optional": false
     },
     {
       "name": "zone",
       "type": "int",
-      "description": [
-        "Timezone to use. 0 = UTC, 1 = Local."
-      ],
+      "description": ["Timezone to use. 0 = UTC, 1 = Local."],
       "optional": false
     },
     {
@@ -30,7 +24,5 @@
     }
   ],
   "return": "string",
-  "example": [
-    "iPrintLn(\"Current time: \" + timeToString(getRealTime(), 1, \"%H:%M:%S\"));"
-  ]
+  "example": ["iPrintLn(\"Current time: \" + timeToString(getRealTime(), 1, \"%H:%M:%S\"));"]
 }

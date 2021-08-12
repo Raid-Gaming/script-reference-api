@@ -7,22 +7,16 @@
     {
       "name": "string",
       "type": "string",
-      "description": [
-        "String to tokenize."
-      ],
+      "description": ["String to tokenize."],
       "optional": false
     },
     {
       "name": "length",
       "type": "int",
-      "description": [
-        "Maximum amount of characters in a segment."
-      ],
+      "description": ["Maximum amount of characters in a segment."],
       "optional": false
     }
   ],
   "return": "Array",
-  "example": [
-    "tok = strTokByLen(\"Hello world!\", 6);"
-  ]
+  "example": ["tok = strTokByLen(\"Hello world!\", 6);"]
 }

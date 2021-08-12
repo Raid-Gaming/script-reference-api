@@ -1,11 +1,7 @@
 {
   "usage": "<entity> getLightExponent()",
-  "description": [
-    "Gets the current exponent of the light."
-  ],
+  "description": ["Gets the current exponent of the light."],
   "return": "int",
-  "example": [
-    "exponent = self getLightExponent();"
-  ],
+  "example": ["exponent = self getLightExponent();"],
   "engine": "SP"
 }

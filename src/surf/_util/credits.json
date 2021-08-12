@@ -1,16 +1,12 @@
 {
   "sourceFile": "surf\\_util",
   "usage": "credits(<lines>)",
-  "description": [
-    "Show scrolling credits at the top of players' screens."
-  ],
+  "description": ["Show scrolling credits at the top of players' screens."],
   "params": [
     {
       "name": "lines",
       "type": "Array",
-      "description": [
-        "Text to display in the credits."
-      ],
+      "description": ["Text to display in the credits."],
       "optional": false
     }
   ],

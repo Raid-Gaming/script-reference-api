@@ -1,11 +1,7 @@
 {
   "usage": "isSaveRecentlyLoaded()",
-  "description": [
-    "Checks if the current savegame has recently been loaded."
-  ],
+  "description": ["Checks if the current savegame has recently been loaded."],
   "return": "bool",
-  "example": [
-    "if (isSaveRecentlyLoaded()) {\n  // Code\n}"
-  ],
+  "example": ["if (isSaveRecentlyLoaded()) {\n  // Code\n}"],
   "engine": "SP"
 }

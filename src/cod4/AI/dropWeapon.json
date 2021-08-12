@@ -7,30 +7,22 @@
     {
       "name": "weapon name",
       "type": "string",
-      "description": [
-        "The name of the weapon."
-      ],
+      "description": ["The name of the weapon."],
       "optional": false
     },
     {
       "name": "hand",
       "type": "string",
-      "description": [
-        "The weapon hand. Can be either \"left\" or \"right\"."
-      ],
+      "description": ["The weapon hand. Can be either \"left\" or \"right\"."],
       "optional": false
     },
     {
       "name": "throw speed",
       "type": "float",
-      "description": [
-        "The speed that the weapon is thrown at."
-      ],
+      "description": ["The speed that the weapon is thrown at."],
       "optional": false
     }
   ],
-  "example": [
-    "self dropWeapon(self.weapon, self.anim_gunHand, throwVel);"
-  ],
+  "example": ["self dropWeapon(self.weapon, self.anim_gunHand, throwVel);"],
   "engine": "SP"
 }

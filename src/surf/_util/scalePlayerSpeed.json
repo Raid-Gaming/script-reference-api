@@ -1,20 +1,14 @@
 {
   "sourceFile": "surf\\_util",
   "usage": "<player> scalePlayerSpeed(<speedScale>)",
-  "description": [
-    "Scale a player's horizontal speed by a given multiplier."
-  ],
+  "description": ["Scale a player's horizontal speed by a given multiplier."],
   "params": [
     {
       "name": "speedScale",
       "type": "float",
-      "description": [
-        "Speed multiplier."
-      ],
+      "description": ["Speed multiplier."],
       "optional": false
     }
   ],
-  "example": [
-    "self scalePlayerSpeed(2);"
-  ]
+  "example": ["self scalePlayerSpeed(2);"]
 }

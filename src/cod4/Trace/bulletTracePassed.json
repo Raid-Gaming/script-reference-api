@@ -7,38 +7,28 @@
     {
       "name": "start",
       "type": "Vector3",
-      "description": [
-        "The bullet start point."
-      ],
+      "description": ["The bullet start point."],
       "optional": false
     },
     {
       "name": "end",
       "type": "Vector3",
-      "description": [
-        "The bullet end point."
-      ],
+      "description": ["The bullet end point."],
       "optional": false
     },
     {
       "name": "hit characters",
       "type": "bool",
-      "description": [
-        "When set to true, this will trace for character hits."
-      ],
+      "description": ["When set to true, this will trace for character hits."],
       "optional": false
     },
     {
       "name": "ignore entity",
       "type": "Entity",
-      "description": [
-        "An entity to ignore."
-      ],
+      "description": ["An entity to ignore."],
       "optional": false
     }
   ],
   "return": "bool",
-  "example": [
-    "success = bulletTracePassed(magicBulletOrigin.origin, eyePos, true, undefined);"
-  ]
+  "example": ["success = bulletTracePassed(magicBulletOrigin.origin, eyePos, true, undefined);"]
 }

@@ -7,13 +7,9 @@
     {
       "name": "entity",
       "type": "Entity",
-      "description": [
-        "Entity to target."
-      ],
+      "description": ["Entity to target."],
       "optional": false
     }
   ],
-  "example": [
-    "waypoint setTargetEnt(level.axis.bombCarrier);"
-  ]
+  "example": ["waypoint setTargetEnt(level.axis.bombCarrier);"]
 }

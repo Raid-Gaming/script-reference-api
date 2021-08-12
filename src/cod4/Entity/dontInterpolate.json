@@ -3,8 +3,6 @@
   "description": [
     "Pop the entity's position instantaneously to where it moves this time step, rather than smoothly moving there from the previous position."
   ],
-  "example": [
-    "entity dontInterpolate();"
-  ],
+  "example": ["entity dontInterpolate();"],
   "engine": "SP"
 }

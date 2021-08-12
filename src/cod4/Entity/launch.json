@@ -7,14 +7,10 @@
     {
       "name": "initial velocity",
       "type": "Vector3",
-      "description": [
-        "The initial velocity of the launch."
-      ],
+      "description": ["The initial velocity of the launch."],
       "optional": false
     }
   ],
-  "example": [
-    "self launch((x, y, z));"
-  ],
+  "example": ["self launch((x, y, z));"],
   "engine": "SP"
 }

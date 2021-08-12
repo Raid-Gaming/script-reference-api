@@ -1,8 +1,6 @@
 {
   "usage": "<entity> setCursorHint(<hint>)",
-  "description": [
-    "Sets a visible cursor near to an objective."
-  ],
+  "description": ["Sets a visible cursor near to an objective."],
   "params": [
     {
       "name": "hint",
@@ -13,7 +11,5 @@
       "optional": false
     }
   ],
-  "example": [
-    "trigger setCursorHint(\"HINT_NOICON\");"
-  ]
+  "example": ["trigger setCursorHint(\"HINT_NOICON\");"]
 }

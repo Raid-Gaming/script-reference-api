@@ -7,14 +7,9 @@
     {
       "name": "entity",
       "type": "int",
-      "description": [
-        "The reference entity's ID."
-      ],
+      "description": ["The reference entity's ID."],
       "optional": false
     }
   ],
-  "example": [
-    "org = getEnt(\"org\", \"targetname\");",
-    "self setGroundReferenceEnt(org getEntityNumber());"
-  ]
+  "example": ["org = getEnt(\"org\", \"targetname\");", "self setGroundReferenceEnt(org getEntityNumber());"]
 }

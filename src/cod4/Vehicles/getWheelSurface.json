@@ -1,8 +1,6 @@
 {
   "usage": "<entity> getWheelSurface(<wheel>)",
-  "description": [
-    "Returns the surface type of the given wheel as a string."
-  ],
+  "description": ["Returns the surface type of the given wheel as a string."],
   "params": [
     {
       "name": "wheel",
@@ -14,8 +12,6 @@
     }
   ],
   "return": "string",
-  "example": [
-    "surface = self getWheelSurface(side);"
-  ],
+  "example": ["surface = self getWheelSurface(side);"],
   "engine": "SP"
 }

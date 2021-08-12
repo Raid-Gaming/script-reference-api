@@ -1,20 +1,14 @@
 {
   "usage": "<player> getFractionMaxAmmo(<weapon>)",
-  "description": [
-    "Return the player's current ammunition amount as a fraction of the weapon's maximum amunition."
-  ],
+  "description": ["Return the player's current ammunition amount as a fraction of the weapon's maximum amunition."],
   "params": [
     {
       "name": "weapon",
       "type": "string",
-      "description": [
-        "The weapon name."
-      ],
+      "description": ["The weapon name."],
       "optional": false
     }
   ],
   "return": "float",
-  "example": [
-    "frac = self getFractionMaxAmmo(\"m4_grenadier\");"
-  ]
+  "example": ["frac = self getFractionMaxAmmo(\"m4_grenadier\");"]
 }

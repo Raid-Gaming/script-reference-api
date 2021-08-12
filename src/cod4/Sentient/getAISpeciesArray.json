@@ -1,29 +1,21 @@
 {
   "usage": "getAISpeciesArray(<team>, <species>)",
-  "description": [
-    "Returns an array of the AI."
-  ],
+  "description": ["Returns an array of the AI."],
   "params": [
     {
       "name": "team",
       "type": "string",
-      "description": [
-        "A team name, either \"axis\", \"allies\", \"neutral\", or \"all\". Defaults to \"all\"."
-      ],
+      "description": ["A team name, either \"axis\", \"allies\", \"neutral\", or \"all\". Defaults to \"all\"."],
       "optional": false
     },
     {
       "name": "species",
       "type": "string",
-      "description": [
-        "Species of the AI to get: \"human\", \"dog\", or \"all\". Defaults to \"human\"."
-      ],
+      "description": ["Species of the AI to get: \"human\", \"dog\", or \"all\". Defaults to \"human\"."],
       "optional": false
     }
   ],
   "return": "Array",
-  "example": [
-    "array = getAISpeciesArray(\"axis\", \"all\");"
-  ],
+  "example": ["array = getAISpeciesArray(\"axis\", \"all\");"],
   "engine": "SP"
 }

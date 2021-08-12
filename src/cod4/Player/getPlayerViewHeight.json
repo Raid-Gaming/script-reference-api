@@ -1,11 +1,7 @@
 {
   "usage": "<player> getPlayerViewHeight()",
-  "description": [
-    "Get the player's view height."
-  ],
+  "description": ["Get the player's view height."],
   "return": "float",
-  "example": [
-    "height = level.player getPlayerViewHeight();"
-  ],
+  "example": ["height = level.player getPlayerViewHeight();"],
   "engine": "SP"
 }

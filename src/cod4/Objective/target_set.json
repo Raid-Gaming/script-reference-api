@@ -1,28 +1,20 @@
 {
   "usage": "target_set(<target entity>, <target offset>)",
-  "description": [
-    "Adds a new target to draw on the HUD."
-  ],
+  "description": ["Adds a new target to draw on the HUD."],
   "params": [
     {
       "name": "target entity",
       "type": "Entity",
-      "description": [
-        "The entity that is the target."
-      ],
+      "description": ["The entity that is the target."],
       "optional": false
     },
     {
       "name": "target offset",
       "type": "Vector3",
-      "description": [
-        "The offset of the target position from the entity's origin."
-      ],
+      "description": ["The offset of the target position from the entity's origin."],
       "optional": true
     }
   ],
-  "example": [
-    "target_set(enemyChopper);"
-  ],
+  "example": ["target_set(enemyChopper);"],
   "engine": "SP"
 }

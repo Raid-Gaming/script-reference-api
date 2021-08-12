@@ -1,20 +1,14 @@
 {
   "usage": "<entity> setSpawnerTeam(<team>)",
-  "description": [
-    "Set the team for this spawner."
-  ],
+  "description": ["Set the team for this spawner."],
   "params": [
     {
       "name": "team",
       "type": "string",
-      "description": [
-        "The team for this spawner. Either \"axis\", \"allies\", or \"neutral\"."
-      ],
+      "description": ["The team for this spawner. Either \"axis\", \"allies\", or \"neutral\"."],
       "optional": false
     }
   ],
-  "example": [
-    "self setSpawnerTeam(\"axis\");"
-  ],
+  "example": ["self setSpawnerTeam(\"axis\");"],
   "engine": "SP"
 }

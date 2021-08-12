@@ -1,20 +1,14 @@
 {
   "usage": "<hud> setPlayerNameString(<player>)",
-  "description": [
-    "Set the player name string for a HUD element."
-  ],
+  "description": ["Set the player name string for a HUD element."],
   "params": [
     {
       "name": "player",
       "type": "Entity",
-      "description": [
-        "A player entity."
-      ],
+      "description": ["A player entity."],
       "optional": false
     }
   ],
-  "example": [
-    "hud setPlayerNameString(player);"
-  ],
+  "example": ["hud setPlayerNameString(player);"],
   "engine": "MP"
 }

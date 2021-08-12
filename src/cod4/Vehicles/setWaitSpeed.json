@@ -1,20 +1,14 @@
 {
   "usage": "<entity> setWaitSpeed(<speed>)",
-  "description": [
-    "Sets the wait speed for this vehicle in miles per hour."
-  ],
+  "description": ["Sets the wait speed for this vehicle in miles per hour."],
   "params": [
     {
       "name": "speed",
       "type": "float",
-      "description": [
-        "The wait speed for the vehicle."
-      ],
+      "description": ["The wait speed for the vehicle."],
       "optional": false
     }
   ],
-  "example": [
-    "self setWaitSpeed(5);"
-  ],
+  "example": ["self setWaitSpeed(5);"],
   "engine": "SP"
 }

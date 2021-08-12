@@ -1,16 +1,12 @@
 {
   "sourceFile": "surf\\_items",
   "usage": "<player> trailUnlocked(<num>)",
-  "description": [
-    "Checks if a player has unlocked a trail."
-  ],
+  "description": ["Checks if a player has unlocked a trail."],
   "params": [
     {
       "name": "num",
       "type": "int",
-      "description": [
-        "Trail ID (as found in trailTable.csv)."
-      ],
+      "description": ["Trail ID (as found in trailTable.csv)."],
       "optional": false
     }
   ],

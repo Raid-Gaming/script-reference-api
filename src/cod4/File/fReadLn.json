@@ -7,14 +7,10 @@
     {
       "name": "file",
       "type": "int",
-      "description": [
-        "File handle returned by openFile."
-      ],
+      "description": ["File handle returned by openFile."],
       "optional": false
     }
   ],
   "return": "int",
-  "example": [
-    "fReadLn(file);"
-  ]
+  "example": ["fReadLn(file);"]
 }

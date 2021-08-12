@@ -1,20 +1,14 @@
 {
   "usage": "toTitle(<string>)",
-  "description": [
-    "Convert a string to Title Case."
-  ],
+  "description": ["Convert a string to Title Case."],
   "params": [
     {
       "name": "string",
       "type": "string",
-      "description": [
-        "String to convert."
-      ],
+      "description": ["String to convert."],
       "optional": false
     }
   ],
   "return": "string",
-  "example": [
-    "str = toTitle(\"hello world\");"
-  ]
+  "example": ["str = toTitle(\"hello world\");"]
 }

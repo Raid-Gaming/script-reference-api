@@ -1,21 +1,15 @@
 {
   "usage": "mapExists(<map name>)",
-  "description": [
-    "Returns true if the map with the given name exists on the server"
-  ],
+  "description": ["Returns true if the map with the given name exists on the server"],
   "params": [
     {
       "name": "map name",
       "type": "string",
-      "description": [
-        "The map to check."
-      ],
+      "description": ["The map to check."],
       "optional": false
     }
   ],
   "return": "bool",
-  "example": [
-    "mapExists(\"mp_crash\");"
-  ],
+  "example": ["mapExists(\"mp_crash\");"],
   "engine": "MP"
 }

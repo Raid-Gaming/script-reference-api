@@ -1,8 +1,6 @@
 {
   "usage": "getAnimLength(<animation>)",
-  "description": [
-    "Get the length of an animation."
-  ],
+  "description": ["Get the length of an animation."],
   "params": [
     {
       "name": "animation",
@@ -14,7 +12,5 @@
     }
   ],
   "return": "float",
-  "example": [
-    "cycleTime = getAnimLength(climbAnim);"
-  ]
+  "example": ["cycleTime = getAnimLength(climbAnim);"]
 }

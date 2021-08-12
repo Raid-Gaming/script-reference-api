@@ -1,8 +1,6 @@
 {
   "usage": "<entity> getAttachIgnoreCollision(<model index>",
-  "description": [
-    "Returns the ignore collision flag of the attached model at the given attachment slot."
-  ],
+  "description": ["Returns the ignore collision flag of the attached model at the given attachment slot."],
   "params": [
     {
       "name": "model index",
@@ -14,7 +12,5 @@
     }
   ],
   "return": "bool",
-  "example": [
-    "ignoreCollision = self getAttachIgnoreCollision(index);"
-  ]
+  "example": ["ignoreCollision = self getAttachIgnoreCollision(index);"]
 }

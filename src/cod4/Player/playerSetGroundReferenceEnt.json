@@ -7,14 +7,10 @@
     {
       "name": "entity",
       "type": "Entity",
-      "description": [
-        "The entity used to rotate the player's view."
-      ],
+      "description": ["The entity used to rotate the player's view."],
       "optional": false
     }
   ],
-  "example": [
-    "level.player playerSetGroundReferenceEnt(seaEnt);"
-  ],
+  "example": ["level.player playerSetGroundReferenceEnt(seaEnt);"],
   "engine": "SP"
 }

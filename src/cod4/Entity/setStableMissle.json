@@ -7,13 +7,9 @@
     {
       "name": "flag",
       "type": "bool",
-      "description": [
-        "True if the entity shoots stables missles."
-      ],
+      "description": ["True if the entity shoots stables missles."],
       "optional": false
     }
   ],
-  "example": [
-    "self setStableMissle(true);"
-  ]
+  "example": ["self setStableMissle(true);"]
 }

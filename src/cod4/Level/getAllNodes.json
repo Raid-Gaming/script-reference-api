@@ -1,11 +1,7 @@
 {
   "usage": "getAllNodes()",
-  "description": [
-    "Gets all of the nodes in a level."
-  ],
+  "description": ["Gets all of the nodes in a level."],
   "return": "Array",
-  "example": [
-    "nodes = getAllNodes();"
-  ],
+  "example": ["nodes = getAllNodes();"],
   "engine": "SP"
 }

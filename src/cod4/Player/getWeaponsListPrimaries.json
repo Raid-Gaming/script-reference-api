@@ -1,10 +1,6 @@
 {
   "usage": "<player> getWeaponsListPrimaries()",
-  "description": [
-    "Gets an array of all primary weapons that the player has."
-  ],
+  "description": ["Gets an array of all primary weapons that the player has."],
   "return": "Array",
-  "example": [
-    "weaponList = level.player getWeaponsListPrimaries();"
-  ]
+  "example": ["weaponList = level.player getWeaponsListPrimaries();"]
 }

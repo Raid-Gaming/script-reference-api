@@ -1,16 +1,12 @@
 {
   "sourceFile": "surf\\_items",
   "usage": "<player> characterUnlocked(<num>)",
-  "description": [
-    "Checks if a player has unlocked a character."
-  ],
+  "description": ["Checks if a player has unlocked a character."],
   "params": [
     {
       "name": "num",
       "type": "int",
-      "description": [
-        "Character ID (as found in characterTable.csv)."
-      ],
+      "description": ["Character ID (as found in characterTable.csv)."],
       "optional": false
     }
   ],

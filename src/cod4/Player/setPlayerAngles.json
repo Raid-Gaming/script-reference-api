@@ -1,19 +1,13 @@
 {
   "usage": "<player> setPlayerAngles(<angles>)",
-  "description": [
-    "Set the player's angles."
-  ],
+  "description": ["Set the player's angles."],
   "params": [
     {
       "name": "angles",
       "type": "Vector3",
-      "description": [
-        "New player angles."
-      ],
+      "description": ["New player angles."],
       "optional": false
     }
   ],
-  "example": [
-    "level.player setPlayerAngles((0, 240, 0));"
-  ]
+  "example": ["level.player setPlayerAngles((0, 240, 0));"]
 }

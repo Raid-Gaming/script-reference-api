@@ -1,12 +1,7 @@
 {
   "sourceFile": "surf\\_surf",
   "usage": "<player> isOnRampLeft()",
-  "description": [
-    "Checks if a player is on a ramp where the ramp is on the left side of the player."
-  ],
+  "description": ["Checks if a player is on a ramp where the ramp is on the left side of the player."],
   "return": "bool",
-  "example": [
-    "if (self isOnRampLeft() || self isOnRampRight())",
-    "  return true;"
-  ]
+  "example": ["if (self isOnRampLeft() || self isOnRampRight())", "  return true;"]
 }

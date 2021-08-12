@@ -7,22 +7,16 @@
     {
       "name": "entity",
       "type": "Entity",
-      "description": [
-        "The entity to attach the player to."
-      ],
+      "description": ["The entity to attach the player to."],
       "optional": false
     },
     {
       "name": "tag",
       "type": "string",
-      "description": [
-        "The tag to attach the player to."
-      ],
+      "description": ["The tag to attach the player to."],
       "optional": true
     }
   ],
-  "example": [
-    "level.player playerLinkToAbsolute(vehicle, \"tag_player\");"
-  ],
+  "example": ["level.player playerLinkToAbsolute(vehicle, \"tag_player\");"],
   "engine": "SP"
 }

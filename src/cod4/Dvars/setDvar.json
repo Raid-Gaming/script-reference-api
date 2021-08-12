@@ -7,21 +7,15 @@
     {
       "name": "dvar",
       "type": "string",
-      "description": [
-        "The dvar name."
-      ],
+      "description": ["The dvar name."],
       "optional": false
     },
     {
       "name": "value",
       "type": "string",
-      "description": [
-        "The dvar value."
-      ],
+      "description": ["The dvar value."],
       "optional": false
     }
   ],
-  "example": [
-    "setDvar(\"r_eyesAdjust\", \"1\");"
-  ]
+  "example": ["setDvar(\"r_eyesAdjust\", \"1\");"]
 }

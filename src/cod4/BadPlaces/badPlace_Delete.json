@@ -7,14 +7,10 @@
     {
       "name": "bad place identifier",
       "type": "string",
-      "description": [
-        "The bad place to delete."
-      ],
+      "description": ["The bad place to delete."],
       "optional": false
     }
   ],
-  "example": [
-    "badPlace_Delete(\"bpFlak1\");"
-  ],
+  "example": ["badPlace_Delete(\"bpFlak1\");"],
   "engine": "SP"
 }

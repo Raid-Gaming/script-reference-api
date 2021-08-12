@@ -1,19 +1,13 @@
 {
   "usage": "<player> takeWeapon(<weapon>)",
-  "description": [
-    "Take a weapon from the player."
-  ],
+  "description": ["Take a weapon from the player."],
   "params": [
     {
       "name": "weapon",
       "type": "string",
-      "description": [
-        "The weapon name."
-      ],
+      "description": ["The weapon name."],
       "optional": false
     }
   ],
-  "example": [
-    "level.player takeWeapon(\"m16_grenadier\");"
-  ]
+  "example": ["level.player takeWeapon(\"m16_grenadier\");"]
 }

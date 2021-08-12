@@ -7,29 +7,21 @@
     {
       "name": "shellshockname",
       "type": "string",
-      "description": [
-        "Name of the shell shock sequence."
-      ],
+      "description": ["Name of the shell shock sequence."],
       "optional": false
     },
     {
       "name": "duration",
       "type": "float",
-      "description": [
-        "Duration in seconds. Must be between 0 and 60 seconds."
-      ],
+      "description": ["Duration in seconds. Must be between 0 and 60 seconds."],
       "optional": false
     },
     {
       "name": "overrideCheat",
       "type": "bool",
-      "description": [
-        "Certain player cheats can disable this function, set this to true to force the issue."
-      ],
+      "description": ["Certain player cheats can disable this function, set this to true to force the issue."],
       "optional": true
     }
   ],
-  "example": [
-    "self shellShock(\"death\", 5);"
-  ]
+  "example": ["self shellShock(\"death\", 5);"]
 }

@@ -1,11 +1,7 @@
 {
   "usage": "isSaveSuccessful()",
-  "description": [
-    "Checks if the last saved game was successfully saved."
-  ],
+  "description": ["Checks if the last saved game was successfully saved."],
   "return": "bool",
-  "example": [
-    "if (isSaveSuccessful()) {\n  // Code\n}"
-  ],
+  "example": ["if (isSaveSuccessful()) {\n  // Code\n}"],
   "engine": "SP"
 }

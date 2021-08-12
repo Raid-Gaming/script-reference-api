@@ -1,19 +1,13 @@
 {
   "usage": "<player> openMenu(<menu>)",
-  "description": [
-    "Open a menu for this player."
-  ],
+  "description": ["Open a menu for this player."],
   "params": [
     {
       "name": "menu",
       "type": "string",
-      "description": [
-        "Name of the menu to open."
-      ],
+      "description": ["Name of the menu to open."],
       "optional": false
     }
   ],
-  "example": [
-    "self openMenu(game[\"menu_weapon_allies_only\"]);"
-  ]
+  "example": ["self openMenu(game[\"menu_weapon_allies_only\"]);"]
 }

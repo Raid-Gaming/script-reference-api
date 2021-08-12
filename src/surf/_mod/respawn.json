@@ -1,10 +1,6 @@
 {
   "sourceFile": "surf\\_mod",
   "usage": "<player> respawn()",
-  "description": [
-    "Respawn the player."
-  ],
-  "example": [
-    "self respawn();"
-  ]
+  "description": ["Respawn the player."],
+  "example": ["self respawn();"]
 }

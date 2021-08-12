@@ -1,11 +1,7 @@
 {
   "usage": "<player> getClanID()",
-  "description": [
-    "Return the id of the player's clan."
-  ],
+  "description": ["Return the id of the player's clan."],
   "return": "int",
-  "example": [
-    "player getClanID();"
-  ],
+  "example": ["player getClanID();"],
   "engine": "MP"
 }

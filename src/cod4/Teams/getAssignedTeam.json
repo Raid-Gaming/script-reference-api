@@ -7,15 +7,11 @@
     {
       "name": "player",
       "type": "Entity",
-      "description": [
-        "The player."
-      ],
+      "description": ["The player."],
       "optional": false
     }
   ],
   "return": "int",
-  "example": [
-    "team = getAssignedTeam(player);"
-  ],
+  "example": ["team = getAssignedTeam(player);"],
   "engine": "MP"
 }

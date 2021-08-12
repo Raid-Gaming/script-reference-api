@@ -1,23 +1,17 @@
 {
   "usage": "<player> playLocalSound(<sound>, <notification string>, <stoppable flag>)",
-  "description": [
-    "Plays a sound locally to the player."
-  ],
+  "description": ["Plays a sound locally to the player."],
   "params": [
     {
       "name": "sound",
       "type": "string",
-      "description": [
-        "The name of the sound to play."
-      ],
+      "description": ["The name of the sound to play."],
       "optional": false
     },
     {
       "name": "notification string",
       "type": "string",
-      "description": [
-        "If present, the sound will notify this string on this player when done. (Single player only)"
-      ],
+      "description": ["If present, the sound will notify this string on this player when done. (Single player only)"],
       "optional": true
     },
     {
@@ -29,7 +23,5 @@
       "optional": true
     }
   ],
-  "example": [
-    "players[i] playLocalSound(\"MP_announcer_round_draw\");"
-  ]
+  "example": ["players[i] playLocalSound(\"MP_announcer_round_draw\");"]
 }

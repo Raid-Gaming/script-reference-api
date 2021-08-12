@@ -1,43 +1,31 @@
 {
   "usage": "<entity> rotateVelocity(<rotate velocity>, <time>, <acceleration time>, <deceleration time>)",
-  "description": [
-    "Rotate this entity at a particular velocity for a given time."
-  ],
+  "description": ["Rotate this entity at a particular velocity for a given time."],
   "params": [
     {
       "name": "rotate velocity",
       "type": "Vector3",
-      "description": [
-        "The rotational velocity to rotate at."
-      ],
+      "description": ["The rotational velocity to rotate at."],
       "optional": false
     },
     {
       "name": "time",
       "type": "float",
-      "description": [
-        "The time to move the entity in seconds."
-      ],
+      "description": ["The time to move the entity in seconds."],
       "optional": false
     },
     {
       "name": "acceleration time",
       "type": "float",
-      "description": [
-        "The time spent accelerating."
-      ],
+      "description": ["The time spent accelerating."],
       "optional": true
     },
     {
       "name": "deceleration time",
       "type": "float",
-      "description": [
-        "The time spent decelerating."
-      ],
+      "description": ["The time spent decelerating."],
       "optional": true
     }
   ],
-  "example": [
-    "self rotateVelocity((x, y, z), 12);"
-  ]
+  "example": ["self rotateVelocity((x, y, z), 12);"]
 }

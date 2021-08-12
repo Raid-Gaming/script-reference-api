@@ -1,19 +1,13 @@
 {
   "usage": "preCacheRumble(<name>)",
-  "description": [
-    "Precaches the given rumble. It must be called before any wait statements in the level script."
-  ],
+  "description": ["Precaches the given rumble. It must be called before any wait statements in the level script."],
   "params": [
     {
       "name": "name",
       "type": "string",
-      "description": [
-        "Name of the rumble to precache."
-      ],
+      "description": ["Name of the rumble to precache."],
       "optional": false
     }
   ],
-  "example": [
-    "preCacheRumble(\"damage_heavy\");"
-  ]
+  "example": ["preCacheRumble(\"damage_heavy\");"]
 }

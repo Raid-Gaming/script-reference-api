@@ -7,27 +7,19 @@
     {
       "name": "reference",
       "type": "Vector3",
-      "description": [
-        "The base position."
-      ]
+      "description": ["The base position."]
     },
     {
       "name": "point A",
       "type": "Vector3",
-      "description": [
-        "The first point."
-      ]
+      "description": ["The first point."]
     },
     {
       "name": "point B",
       "type": "Vector3",
-      "description": [
-        "The second point."
-      ]
+      "description": ["The second point."]
     }
   ],
   "return": "bool",
-  "example": [
-    "if (closer(center, models[j].origin, models[i].origin)) {\n  // Code\n}"
-  ]
+  "example": ["if (closer(center, models[j].origin, models[i].origin)) {\n  // Code\n}"]
 }

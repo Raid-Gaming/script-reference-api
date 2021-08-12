@@ -23,9 +23,7 @@
     {
       "name": "brush entity",
       "type": "entity",
-      "description": [
-        "The brush entity representing the bad place."
-      ],
+      "description": ["The brush entity representing the bad place."],
       "optional": false
     },
     {
@@ -37,8 +35,6 @@
       "optional": false
     }
   ],
-  "example": [
-    "badPlace_Brush(\"moody\", -1, volumeEnt, \"axis\");"
-  ],
+  "example": ["badPlace_Brush(\"moody\", -1, volumeEnt, \"axis\");"],
   "engine": "SP"
 }

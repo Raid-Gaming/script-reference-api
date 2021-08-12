@@ -7,30 +7,22 @@
     {
       "name": "dir to sun now",
       "type": "Vector3",
-      "description": [
-        "The direction to the sun now. It need not be normalized."
-      ],
+      "description": ["The direction to the sun now. It need not be normalized."],
       "optional": false
     },
     {
       "name": "dir to sun at end",
       "type": "Vector3",
-      "description": [
-        "The direction to the sun after lerp time. It need not be normalized."
-      ],
+      "description": ["The direction to the sun after lerp time. It need not be normalized."],
       "optional": false
     },
     {
       "name": "lerp time",
       "type": "float",
-      "description": [
-        "Time in seconds to lerp over."
-      ],
+      "description": ["Time in seconds to lerp over."],
       "optional": false
     }
   ],
-  "example": [
-    "lerpSunDirection((-0.5, 0.5, -1.0), (-0.5, -0.5, -1.0), 1.0);"
-  ],
+  "example": ["lerpSunDirection((-0.5, 0.5, -1.0), (-0.5, -0.5, -1.0), 1.0);"],
   "engine": "SP"
 }

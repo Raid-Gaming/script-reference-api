@@ -1,19 +1,13 @@
 {
   "usage": "<player> setOrigin(<origin>)",
-  "description": [
-    "Set the player's origin."
-  ],
+  "description": ["Set the player's origin."],
   "params": [
     {
       "name": "origin",
       "type": "Vector3",
-      "description": [
-        "New player origin."
-      ],
+      "description": ["New player origin."],
       "optional": false
     }
   ],
-  "example": [
-    "level.player setOrigin(plTruck.origin);"
-  ]
+  "example": ["level.player setOrigin(plTruck.origin);"]
 }

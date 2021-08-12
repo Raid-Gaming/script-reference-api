@@ -1,8 +1,6 @@
 {
   "usage": "<entity> getAttachTagName(<model index>)",
-  "description": [
-    "Returns the tagname of the attached model at the given attachment slot."
-  ],
+  "description": ["Returns the tagname of the attached model at the given attachment slot."],
   "params": [
     {
       "name": "model index",
@@ -14,7 +12,5 @@
     }
   ],
   "return": "string",
-  "example": [
-    "tag = self getAttachTagName(index);"
-  ]
+  "example": ["tag = self getAttachTagName(index);"]
 }

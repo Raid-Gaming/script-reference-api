@@ -1,20 +1,14 @@
 {
   "usage": "<player> hasWeapon(<perk>)",
-  "description": [
-    "Test if player has the given weapon."
-  ],
+  "description": ["Test if player has the given weapon."],
   "params": [
     {
       "name": "perk",
       "type": "string",
-      "description": [
-        "The weapon name."
-      ],
+      "description": ["The weapon name."],
       "optional": false
     }
   ],
   "return": "bool",
-  "example": [
-    "if (player hasWeapon(\"panzerfaust\")) {\n  // Code\n}"
-  ]
+  "example": ["if (player hasWeapon(\"panzerfaust\")) {\n  // Code\n}"]
 }

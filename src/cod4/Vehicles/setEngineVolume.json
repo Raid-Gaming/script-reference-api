@@ -7,14 +7,10 @@
     {
       "name": "scale",
       "type": "float",
-      "description": [
-        "Scales the total volume of the vehicle."
-      ],
+      "description": ["Scales the total volume of the vehicle."],
       "optional": false
     }
   ],
-  "example": [
-    "helicopter setEngineVolume(0.5);"
-  ],
+  "example": ["helicopter setEngineVolume(0.5);"],
   "engine": "SP"
 }

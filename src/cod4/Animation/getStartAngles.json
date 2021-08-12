@@ -7,31 +7,23 @@
     {
       "name": "origin",
       "type": "Vector3",
-      "description": [
-        "The current origin of the animation in world coordinates."
-      ],
+      "description": ["The current origin of the animation in world coordinates."],
       "optional": false
     },
     {
       "name": "angles",
       "type": "Vector3",
-      "description": [
-        "The current angle set of the animation in world coordinates."
-      ],
+      "description": ["The current angle set of the animation in world coordinates."],
       "optional": false
     },
     {
       "name": "animation",
       "type": "animation",
-      "description": [
-        "The currently running animation."
-      ],
+      "description": ["The currently running animation."],
       "optional": false
     }
   ],
   "return": "Vector3",
-  "example": [
-    "org1 = getStartAngles(climborg, climbang, buddyanim1);"
-  ],
+  "example": ["org1 = getStartAngles(climborg, climbang, buddyanim1);"],
   "engine": "SP"
 }

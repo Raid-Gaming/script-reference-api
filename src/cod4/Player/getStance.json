@@ -4,7 +4,5 @@
     "Gets the stance of the player. It only works for the player. Possible return values are \"crouch\", \"prone\" and \"stand\"."
   ],
   "return": "string",
-  "example": [
-    "if (level.player getStance() == \"crouch\") {\n  // Code\n}"
-  ]
+  "example": ["if (level.player getStance() == \"crouch\") {\n  // Code\n}"]
 }

@@ -1,11 +1,7 @@
 {
   "usage": "<entity> getCentroid()",
-  "description": [
-    "Gets the centroid of an entity."
-  ],
+  "description": ["Gets the centroid of an entity."],
   "return": "Vector3",
-  "example": [
-    "centroid = self getCentroid();"
-  ],
+  "example": ["centroid = self getCentroid();"],
   "engine": "SP"
 }

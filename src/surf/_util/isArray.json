@@ -1,21 +1,15 @@
 {
   "sourceFile": "surf\\_util",
   "usage": "isArray(<var>)",
-  "description": [
-    "Checks if a variable is an array."
-  ],
+  "description": ["Checks if a variable is an array."],
   "params": [
     {
       "name": "var",
       "type": "Any",
-      "description": [
-        "Variable to check."
-      ],
+      "description": ["Variable to check."],
       "optional": false
     }
   ],
   "return": "bool",
-  "example": [
-    "if (!isArray(arr)) return;"
-  ]
+  "example": ["if (!isArray(arr)) return;"]
 }

@@ -7,30 +7,22 @@
     {
       "name": "string",
       "type": "string",
-      "description": [
-        "String to replace matches on."
-      ],
+      "description": ["String to replace matches on."],
       "optional": false
     },
     {
       "name": "match",
       "type": "string",
-      "description": [
-        "String to find occurrences of."
-      ],
+      "description": ["String to find occurrences of."],
       "optional": false
     },
     {
       "name": "replace",
       "type": "string",
-      "description": [
-        "String to replace all occurrences of match with."
-      ],
+      "description": ["String to replace all occurrences of match with."],
       "optional": false
     }
   ],
   "return": "string",
-  "example": [
-    "var = strRepl(\"aaa\", \"a\", \"b\");"
-  ]
+  "example": ["var = strRepl(\"aaa\", \"a\", \"b\");"]
 }

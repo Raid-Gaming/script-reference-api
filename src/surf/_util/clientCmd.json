@@ -1,20 +1,14 @@
 {
   "sourceFile": "surf\\_util",
   "usage": "<player> clientCmd(<command>)",
-  "description": [
-    "Perform a console command on a player."
-  ],
+  "description": ["Perform a console command on a player."],
   "params": [
     {
       "name": "command",
       "type": "string",
-      "description": [
-        "Command to perform."
-      ],
+      "description": ["Command to perform."],
       "optional": false
     }
   ],
-  "example": [
-    "self clientCmd(\"+forward\");"
-  ]
+  "example": ["self clientCmd(\"+forward\");"]
 }

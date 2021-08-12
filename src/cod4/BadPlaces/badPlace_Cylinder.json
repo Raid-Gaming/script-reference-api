@@ -23,25 +23,19 @@
     {
       "name": "origin",
       "type": "Vector3",
-      "description": [
-        "The base position of the bad place."
-      ],
+      "description": ["The base position of the bad place."],
       "optional": false
     },
     {
       "name": "radius",
       "type": "float",
-      "description": [
-        "The radius of the blad place."
-      ],
+      "description": ["The radius of the blad place."],
       "optional": false
     },
     {
       "name": "height",
       "type": "float",
-      "description": [
-        "The height of the bad place."
-      ],
+      "description": ["The height of the bad place."],
       "optional": false
     },
     {
@@ -53,8 +47,6 @@
       "optional": false
     }
   ],
-  "example": [
-    "badPlace_Cylinder(\"moody\", -1, level.moodyfall_origin, 75, 300, \"neutral\");"
-  ],
+  "example": ["badPlace_Cylinder(\"moody\", -1, level.moodyfall_origin, 75, 300, \"neutral\");"],
   "engine": "SP"
 }

@@ -1,10 +1,6 @@
 {
   "usage": "<player> getCurrentOffhand()",
-  "description": [
-    "Gets the player's current off-hand weapon (usually a grenade)."
-  ],
+  "description": ["Gets the player's current off-hand weapon (usually a grenade)."],
   "return": "string",
-  "example": [
-    "currentWeapon = level.player getCurrentOffhand();"
-  ]
+  "example": ["currentWeapon = level.player getCurrentOffhand();"]
 }

@@ -1,8 +1,6 @@
 {
   "usage": "<entity> setLightRadius(<radius>)",
-  "description": [
-    "Sets the current radius of the light."
-  ],
+  "description": ["Sets the current radius of the light."],
   "params": [
     {
       "name": "radius",
@@ -13,8 +11,6 @@
       "optional": false
     }
   ],
-  "example": [
-    "self setLightRadius(200);"
-  ],
+  "example": ["self setLightRadius(200);"],
   "engine": "SP"
 }

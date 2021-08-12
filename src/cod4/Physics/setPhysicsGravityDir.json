@@ -1,8 +1,6 @@
 {
   "usage": "setPhysicsGravityDir(<direction>)",
-  "description": [
-    "Sets the direction of gravity for physics."
-  ],
+  "description": ["Sets the direction of gravity for physics."],
   "params": [
     {
       "name": "direction",
@@ -13,8 +11,6 @@
       "optional": false
     }
   ],
-  "example": [
-    "setPhysicsGravityDir((0, 0, 1));"
-  ],
+  "example": ["setPhysicsGravityDir((0, 0, 1));"],
   "engine": "SP"
 }

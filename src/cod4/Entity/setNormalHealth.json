@@ -1,19 +1,13 @@
 {
   "usage": "<entity> setNormalHealth(<health>)",
-  "description": [
-    "Sets the normal health of this entity."
-  ],
+  "description": ["Sets the normal health of this entity."],
   "params": [
     {
       "name": "health",
       "type": "int",
-      "description": [
-        "The new normal health."
-      ],
+      "description": ["The new normal health."],
       "optional": false
     }
   ],
-  "example": [
-    "self setNormalHealth((self.maxHealth - self.damageTaken) / self.maxHealth);"
-  ]
+  "example": ["self setNormalHealth((self.maxHealth - self.damageTaken) / self.maxHealth);"]
 }

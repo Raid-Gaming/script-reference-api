@@ -21,7 +21,5 @@
       "optional": true
     }
   ],
-  "example": [
-    "self beginLocationSelection(\"map_crosshair\", 0.1); self waittill(\"confirm_location\", loc);"
-  ]
+  "example": ["self beginLocationSelection(\"map_crosshair\", 0.1); self waittill(\"confirm_location\", loc);"]
 }

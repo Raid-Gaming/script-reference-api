@@ -1,8 +1,6 @@
 {
   "usage": "soundFade(<time>)",
-  "description": [
-    "Fades the sound out."
-  ],
+  "description": ["Fades the sound out."],
   "params": [
     {
       "name": "time",
@@ -13,7 +11,5 @@
       "optional": true
     }
   ],
-  "example": [
-    "soundFade(3);"
-  ]
+  "example": ["soundFade(3);"]
 }

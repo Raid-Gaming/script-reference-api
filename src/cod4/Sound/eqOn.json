@@ -1,10 +1,6 @@
 {
   "usage": "<entity> eqOn()",
-  "description": [
-    "Enables EQ on an entity."
-  ],
-  "example": [
-    "ai eqOn();"
-  ],
+  "description": ["Enables EQ on an entity."],
+  "example": ["ai eqOn();"],
   "engine": "SP"
 }

@@ -1,23 +1,17 @@
 {
   "usage": "<entity> playSound(<alias>, <notification>, <stoppable>)",
-  "description": [
-    "Play the sound alias as if coming from the entity."
-  ],
+  "description": ["Play the sound alias as if coming from the entity."],
   "params": [
     {
       "name": "alias",
       "type": "string",
-      "description": [
-        "The sound alias to play."
-      ],
+      "description": ["The sound alias to play."],
       "optional": false
     },
     {
       "name": "notification",
       "type": "string",
-      "description": [
-        "If present, the sound will notify this string on this entity when done. (Single player only)"
-      ],
+      "description": ["If present, the sound will notify this string on this entity when done. (Single player only)"],
       "optional": true
     },
     {
@@ -29,7 +23,5 @@
       "optional": true
     }
   ],
-  "example": [
-    "self playSound(\"dirt_skid\", \"skidsound\", true);"
-  ]
+  "example": ["self playSound(\"dirt_skid\", \"skidsound\", true);"]
 }

@@ -7,13 +7,9 @@
     {
       "name": "name",
       "type": "string",
-      "description": [
-        "Name of the turret to precache."
-      ],
+      "description": ["Name of the turret to precache."],
       "optional": false
     }
   ],
-  "example": [
-    "preCacheTurret(\"mg42_tank_tiger\");"
-  ]
+  "example": ["preCacheTurret(\"mg42_tank_tiger\");"]
 }

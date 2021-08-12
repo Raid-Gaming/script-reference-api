@@ -1,9 +1,5 @@
 {
   "usage": "<entity> showAllParts()",
-  "description": [
-    "Show all parts of an entity."
-  ],
-  "example": [
-    "self showAllParts();"
-  ]
+  "description": ["Show all parts of an entity."],
+  "example": ["self showAllParts();"]
 }

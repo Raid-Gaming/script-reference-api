@@ -1,10 +1,6 @@
 {
   "usage": "<client> getPing()",
-  "description": [
-    "Get a client's current measured ping."
-  ],
+  "description": ["Get a client's current measured ping."],
   "return": "int",
-  "example": [
-    "ping = self getPing();"
-  ]
+  "example": ["ping = self getPing();"]
 }

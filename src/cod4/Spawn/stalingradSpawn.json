@@ -7,15 +7,11 @@
     {
       "name": "targetname",
       "type": "string",
-      "description": [
-        "Sets the targetname of the spawned entity."
-      ],
+      "description": ["Sets the targetname of the spawned entity."],
       "optional": true
     }
   ],
   "return": "Entity",
-  "example": [
-    "spawned = driver stalingradSpawn(name);"
-  ],
+  "example": ["spawned = driver stalingradSpawn(name);"],
   "engine": "SP"
 }

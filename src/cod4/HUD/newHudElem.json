@@ -1,10 +1,6 @@
 {
   "usage": "newHudElem()",
-  "description": [
-    "Create a new HUD element."
-  ],
+  "description": ["Create a new HUD element."],
   "return": "Struct",
-  "example": [
-    "overlay = newHudElem();"
-  ]
+  "example": ["overlay = newHudElem();"]
 }

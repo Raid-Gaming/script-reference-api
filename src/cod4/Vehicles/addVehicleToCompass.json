@@ -1,8 +1,6 @@
 {
   "usage": "<entity> addVehicleToCompass(<compassIconType>)",
-  "description": [
-    "Add this vehicle to the compass."
-  ],
+  "description": ["Add this vehicle to the compass."],
   "params": [
     {
       "name": "compassIconType",
@@ -13,8 +11,6 @@
       "optional": false
     }
   ],
-  "example": [
-    "tank addVehicleToCompass(\"tank\");"
-  ],
+  "example": ["tank addVehicleToCompass(\"tank\");"],
   "engine": "SP"
 }

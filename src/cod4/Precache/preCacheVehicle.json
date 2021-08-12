@@ -7,14 +7,10 @@
     {
       "name": "name",
       "type": "string",
-      "description": [
-        "Name of the vehicle to precache."
-      ],
+      "description": ["Name of the vehicle to precache."],
       "optional": false
     }
   ],
-  "example": [
-    "node = preCacheVehicle(\"mg42_tank_tiger\");"
-  ],
+  "example": ["node = preCacheVehicle(\"mg42_tank_tiger\");"],
   "engine": "SP"
 }

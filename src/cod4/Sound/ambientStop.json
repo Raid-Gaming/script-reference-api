@@ -1,19 +1,13 @@
 {
   "usage": "ambientStop(<fadetime>)",
-  "description": [
-    "Stops all ambient sounds (excluding the music track)."
-  ],
+  "description": ["Stops all ambient sounds (excluding the music track)."],
   "params": [
     {
       "name": "fadetime",
       "type": "float",
-      "description": [
-        "Fade in time in seconds. If not used, the track will start immediately."
-      ],
+      "description": ["Fade in time in seconds. If not used, the track will start immediately."],
       "optional": true
     }
   ],
-  "example": [
-    "ambientStop(2);"
-  ]
+  "example": ["ambientStop(2);"]
 }

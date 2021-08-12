@@ -7,21 +7,15 @@
     {
       "name": "contactPoint",
       "type": "Vector3",
-      "description": [
-        "The point to apply the initial force."
-      ],
+      "description": ["The point to apply the initial force."],
       "optional": false
     },
     {
       "name": "initialForce",
       "type": "Vector3",
-      "description": [
-        "The force vector to apply."
-      ],
+      "description": ["The force vector to apply."],
       "optional": false
     }
   ],
-  "example": [
-    "dummy physicsLaunch(contactPoint, initialForce);"
-  ]
+  "example": ["dummy physicsLaunch(contactPoint, initialForce);"]
 }

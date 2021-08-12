@@ -7,9 +7,7 @@
     {
       "name": "time",
       "type": "float",
-      "description": [
-        "The time to fade the element in seconds."
-      ],
+      "description": ["The time to fade the element in seconds."],
       "optional": false
     }
   ],

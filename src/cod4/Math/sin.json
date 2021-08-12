@@ -1,20 +1,14 @@
 {
   "usage": "sin(<angle>)",
-  "description": [
-    "Returns the sine of an angle."
-  ],
+  "description": ["Returns the sine of an angle."],
   "params": [
     {
       "name": "angle",
       "type": "float",
-      "description": [
-        "An angle in degrees."
-      ],
+      "description": ["An angle in degrees."],
       "optional": false
     }
   ],
   "return": "float",
-  "example": [
-    "frac = sin(degrees);"
-  ]
+  "example": ["frac = sin(degrees);"]
 }

@@ -7,15 +7,11 @@
     {
       "name": "key",
       "type": "string",
-      "description": [
-        "Key name."
-      ],
+      "description": ["Key name."],
       "optional": false
     }
   ],
   "return": "string",
-  "example": [
-    "command = getCommandFromKey(\"BUTTON_LSTICK\");"
-  ],
+  "example": ["command = getCommandFromKey(\"BUTTON_LSTICK\");"],
   "engine": "SP"
 }

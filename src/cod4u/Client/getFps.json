@@ -1,10 +1,6 @@
 {
   "usage": "<client> getFps()",
-  "description": [
-    "Get a client's FPS as perceived by the server (can be different from what the client sees)."
-  ],
+  "description": ["Get a client's FPS as perceived by the server (can be different from what the client sees)."],
   "return": "int",
-  "example": [
-    "fps = self getFps();"
-  ]
+  "example": ["fps = self getFps();"]
 }

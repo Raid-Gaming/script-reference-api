@@ -1,19 +1,13 @@
 {
   "usage": "<player> switchToOffhand(<weapon>)",
-  "description": [
-    "Switch the player's offhand weapon."
-  ],
+  "description": ["Switch the player's offhand weapon."],
   "params": [
     {
       "name": "weapon",
       "type": "string",
-      "description": [
-        "The weapon name."
-      ],
+      "description": ["The weapon name."],
       "optional": false
     }
   ],
-  "example": [
-    "level.player switchToOffhand(weapon);"
-  ]
+  "example": ["level.player switchToOffhand(weapon);"]
 }

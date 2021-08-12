@@ -1,15 +1,11 @@
 {
   "usage": "objective_state(<objective number>, <state>)",
-  "description": [
-    "Sets the state of an objective."
-  ],
+  "description": ["Sets the state of an objective."],
   "params": [
     {
       "name": "objective number",
       "type": "int",
-      "description": [
-        "The number of the objective to alter."
-      ],
+      "description": ["The number of the objective to alter."],
       "optional": false
     },
     {
@@ -21,7 +17,5 @@
       "optional": false
     }
   ],
-  "example": [
-    "objective_state(8, \"done\");"
-  ]
+  "example": ["objective_state(8, \"done\");"]
 }

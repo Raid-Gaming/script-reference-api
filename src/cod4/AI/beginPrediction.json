@@ -1,10 +1,6 @@
 {
   "usage": "<actor> beginPrediction()",
-  "description": [
-    "Begin actor physics prediction."
-  ],
-  "example": [
-    "self beginPrediction();"
-  ],
+  "description": ["Begin actor physics prediction."],
+  "example": ["self beginPrediction();"],
   "engine": "SP"
 }

@@ -1,23 +1,17 @@
 {
   "usage": "missile_createAttractorOrigin(<origin>, <strength>, <maxDist>)",
-  "description": [
-    "Creates a missile attractor at the given location."
-  ],
+  "description": ["Creates a missile attractor at the given location."],
   "params": [
     {
       "name": "origin",
       "type": "Vector3",
-      "description": [
-        "The center of the attractor."
-      ],
+      "description": ["The center of the attractor."],
       "optional": false
     },
     {
       "name": "strength",
       "type": "int",
-      "description": [
-        "The strength of the attractor (maximum acceleration it can apply to a missle)."
-      ],
+      "description": ["The strength of the attractor (maximum acceleration it can apply to a missle)."],
       "optional": false
     },
     {
@@ -30,7 +24,5 @@
     }
   ],
   "return": "Entity",
-  "example": [
-    "attractor = missile_createAttractorOrigin((100, 350, 10), 10000, 6000);"
-  ]
+  "example": ["attractor = missile_createAttractorOrigin((100, 350, 10), 10000, 6000);"]
 }

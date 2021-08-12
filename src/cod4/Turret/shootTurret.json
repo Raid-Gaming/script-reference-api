@@ -1,10 +1,6 @@
 {
   "usage": "<entity> shootTurret()",
-  "description": [
-    "Shoots a turret."
-  ],
-  "example": [
-    "roofMg42 shootTurret();"
-  ],
+  "description": ["Shoots a turret."],
+  "example": ["roofMg42 shootTurret();"],
   "engine": "SP"
 }

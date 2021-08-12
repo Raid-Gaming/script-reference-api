@@ -1,10 +1,6 @@
 {
   "usage": "<entity> unlockLightVis()",
-  "description": [
-    "Unlocks the lights that are visible by this entity."
-  ],
-  "example": [
-    "spawn unlockLightVis();"
-  ],
+  "description": ["Unlocks the lights that are visible by this entity."],
+  "example": ["spawn unlockLightVis();"],
   "engine": "SP"
 }

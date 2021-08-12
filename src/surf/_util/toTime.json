@@ -1,21 +1,15 @@
 {
   "sourceFile": "surf\\_util",
   "usage": "toTime(<msTime>)",
-  "description": [
-    "Convert a time in milliseconds to hours, minutes, seconds, milliseconds."
-  ],
+  "description": ["Convert a time in milliseconds to hours, minutes, seconds, milliseconds."],
   "params": [
     {
       "name": "msTime",
       "type": "int",
-      "description": [
-        "Time in milliseconds."
-      ],
+      "description": ["Time in milliseconds."],
       "optional": false
     }
   ],
   "return": "string",
-  "example": [
-    "self iPrintLn(\"^1Personal Best^7: \" + toTime(int(self.data[\"record\"])));"
-  ]
+  "example": ["self iPrintLn(\"^1Personal Best^7: \" + toTime(int(self.data[\"record\"])));"]
 }

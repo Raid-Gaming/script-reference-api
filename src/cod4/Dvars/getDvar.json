@@ -1,20 +1,14 @@
 {
   "usage": "getDvar(<dvar>)",
-  "description": [
-    "Gets the value of a dvar, as a string."
-  ],
+  "description": ["Gets the value of a dvar, as a string."],
   "params": [
     {
       "name": "dvar",
       "type": "string",
-      "description": [
-        "The dvar name."
-      ],
+      "description": ["The dvar name."],
       "optional": false
     }
   ],
   "return": "string",
-  "example": [
-    "if (getDvar(\"debug_skipintro\") == \"on\")"
-  ]
+  "example": ["if (getDvar(\"debug_skipintro\") == \"on\")"]
 }

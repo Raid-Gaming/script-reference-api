@@ -1,27 +1,19 @@
 {
   "usage": "<entity> setMaxPitchRoll(<pitch>, <roll>)",
-  "description": [
-    "Sets max pitch and roll angle for this vehicle."
-  ],
+  "description": ["Sets max pitch and roll angle for this vehicle."],
   "params": [
     {
       "name": "pitch",
       "type": "float",
-      "description": [
-        "Max pitch angle."
-      ],
+      "description": ["Max pitch angle."],
       "optional": false
     },
     {
       "name": "roll",
       "type": "float",
-      "description": [
-        "Max roll angle."
-      ],
+      "description": ["Max roll angle."],
       "optional": false
     }
   ],
-  "example": [
-    "self setMaxPitchRoll(30, 30);"
-  ]
+  "example": ["self setMaxPitchRoll(30, 30);"]
 }

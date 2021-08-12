@@ -1,10 +1,6 @@
 {
   "usage": "<entity> getOrigin()",
-  "description": [
-    "Gets the origin of an entity."
-  ],
+  "description": ["Gets the origin of an entity."],
   "return": "Vector3",
-  "example": [
-    "origin = self getOrigin();"
-  ]
+  "example": ["origin = self getOrigin();"]
 }

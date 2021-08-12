@@ -1,10 +1,6 @@
 {
   "usage": "<player> clearPerks()",
-  "description": [
-    "Removes all perks for a player."
-  ],
-  "example": [
-    "player clearPerks();"
-  ],
+  "description": ["Removes all perks for a player."],
+  "example": ["player clearPerks();"],
   "engine": "MP"
 }

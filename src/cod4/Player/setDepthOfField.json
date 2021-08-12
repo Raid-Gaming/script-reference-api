@@ -7,53 +7,39 @@
     {
       "name": "near start",
       "type": "float",
-      "description": [
-        "Before this distance, near depth of field is maximally blurry."
-      ],
+      "description": ["Before this distance, near depth of field is maximally blurry."],
       "optional": false
     },
     {
       "name": "near end",
       "type": "float",
-      "description": [
-        "After this distance, near depth of field is perfectly in focus."
-      ],
+      "description": ["After this distance, near depth of field is perfectly in focus."],
       "optional": false
     },
     {
       "name": "far start",
       "type": "float",
-      "description": [
-        "Before this distance, far depth of field is perfectly in focus."
-      ],
+      "description": ["Before this distance, far depth of field is perfectly in focus."],
       "optional": false
     },
     {
       "name": "far end",
       "type": "float",
-      "description": [
-        "After this distance, far depth of field is maximally blurry."
-      ],
+      "description": ["After this distance, far depth of field is maximally blurry."],
       "optional": false
     },
     {
       "name": "near blur",
       "type": "float",
-      "description": [
-        "Maximal blur radius for near depth of field, in pixels at 640x480."
-      ],
+      "description": ["Maximal blur radius for near depth of field, in pixels at 640x480."],
       "optional": false
     },
     {
       "name": "far blur",
       "type": "float",
-      "description": [
-        "Maximal blur radius for far depth of field, in pixels at 640x480."
-      ],
+      "description": ["Maximal blur radius for far depth of field, in pixels at 640x480."],
       "optional": false
     }
   ],
-  "example": [
-    "self setDepthOfField(10, 80, 1000, 7000, 5, 1.5);"
-  ]
+  "example": ["self setDepthOfField(10, 80, 1000, 7000, 5, 1.5);"]
 }

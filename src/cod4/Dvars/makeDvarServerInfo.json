@@ -1,28 +1,20 @@
 {
   "usage": "makeDvarServerInfo(<dvar name>, <dvar value>)",
-  "description": [
-    "Flags a dvar with the DVAR_CODINFO flag."
-  ],
+  "description": ["Flags a dvar with the DVAR_CODINFO flag."],
   "params": [
     {
       "name": "dvar name",
       "type": "string",
-      "description": [
-        "The name of the dvar to change."
-      ],
+      "description": ["The name of the dvar to change."],
       "optional": false
     },
     {
       "name": "dvar value",
       "type": "string",
-      "description": [
-        "The new value of the dvar."
-      ],
+      "description": ["The new value of the dvar."],
       "optional": false
     }
   ],
-  "example": [
-    "makeDvarServerInfo(\"ui_ctf_timelimit\", \"30\");"
-  ],
+  "example": ["makeDvarServerInfo(\"ui_ctf_timelimit\", \"30\");"],
   "engine": "MP"
 }

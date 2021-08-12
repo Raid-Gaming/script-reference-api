@@ -1,23 +1,17 @@
 {
   "usage": "missile_createRepulsorEnt(<entity>, <strength>, <maxDist>)",
-  "description": [
-    "Creates a missile repulsor at the origin of an entity."
-  ],
+  "description": ["Creates a missile repulsor at the origin of an entity."],
   "params": [
     {
       "name": "entity",
       "type": "Entity",
-      "description": [
-        "The entity that is to be a repulsor."
-      ],
+      "description": ["The entity that is to be a repulsor."],
       "optional": false
     },
     {
       "name": "strength",
       "type": "int",
-      "description": [
-        "The strength of the repulsor (maximum acceleration it can apply to a missle)."
-      ],
+      "description": ["The strength of the repulsor (maximum acceleration it can apply to a missle)."],
       "optional": false
     },
     {
@@ -30,7 +24,5 @@
     }
   ],
   "return": "Entity",
-  "example": [
-    "repulsor = missile_createRepulsorEnt(enemyChopper, 10000, 6000);"
-  ]
+  "example": ["repulsor = missile_createRepulsorEnt(enemyChopper, 10000, 6000);"]
 }

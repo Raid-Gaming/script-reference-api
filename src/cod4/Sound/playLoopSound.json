@@ -1,19 +1,13 @@
 {
   "usage": "<entity> playLoopSound(<alias>)",
-  "description": [
-    "Play a sound as a loop."
-  ],
+  "description": ["Play a sound as a loop."],
   "params": [
     {
       "name": "alias",
       "type": "string",
-      "description": [
-        "The sound alias to play."
-      ],
+      "description": ["The sound alias to play."],
       "optional": false
     }
   ],
-  "example": [
-    "car playLoopSound(\"peugeot_idle_low\");"
-  ]
+  "example": ["car playLoopSound(\"peugeot_idle_low\");"]
 }

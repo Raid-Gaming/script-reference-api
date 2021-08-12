@@ -7,14 +7,10 @@
     {
       "name": "weapon",
       "type": "string",
-      "description": [
-        "The weapon name."
-      ],
+      "description": ["The weapon name."],
       "optional": false
     }
   ],
   "return": "string",
-  "example": [
-    "if (weaponType(\"mosin_nagant_sniper\") == \"bullet\") {\n  // Code\n}"
-  ]
+  "example": ["if (weaponType(\"mosin_nagant_sniper\") == \"bullet\") {\n  // Code\n}"]
 }

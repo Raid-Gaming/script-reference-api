@@ -1,11 +1,7 @@
 {
   "usage": "<player> getViewModel()",
-  "description": [
-    "Get the viewmodel name for the given player."
-  ],
+  "description": ["Get the viewmodel name for the given player."],
   "return": "string",
-  "example": [
-    "info[ \"viewmodel\" ] = self getViewModel();"
-  ],
+  "example": ["info[ \"viewmodel\" ] = self getViewModel();"],
   "engine": "MP"
 }

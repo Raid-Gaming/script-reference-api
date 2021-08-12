@@ -1,10 +1,6 @@
 {
   "usage": "<actor> endPrediction()",
-  "description": [
-    "End actor physics prediction."
-  ],
-  "example": [
-    "self endPrediction();"
-  ],
+  "description": ["End actor physics prediction."],
+  "example": ["self endPrediction();"],
   "engine": "SP"
 }

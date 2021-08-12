@@ -1,20 +1,14 @@
 {
   "usage": "ban(<clientnum>)",
-  "description": [
-    "Bans the specified player."
-  ],
+  "description": ["Bans the specified player."],
   "params": [
     {
       "name": "clientnum",
       "type": "int",
-      "description": [
-        "The client number of the player to ban."
-      ],
+      "description": ["The client number of the player to ban."],
       "optional": false
     }
   ],
-  "example": [
-    "ban(player getEntityNumber());"
-  ],
+  "example": ["ban(player getEntityNumber());"],
   "engine": "MP"
 }

@@ -1,20 +1,14 @@
 {
   "usage": "toFloat(<string>)",
-  "description": [
-    "Convert a string to a floating point number."
-  ],
+  "description": ["Convert a string to a floating point number."],
   "params": [
     {
       "name": "string",
       "type": "string",
-      "description": [
-        "String to convert."
-      ],
+      "description": ["String to convert."],
       "optional": false
     }
   ],
   "return": "float",
-  "example": [
-    "flt = toFloat(\"5.64\");"
-  ]
+  "example": ["flt = toFloat(\"5.64\");"]
 }

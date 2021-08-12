@@ -1,21 +1,15 @@
 {
   "sourceFile": "surf\\_difficulty",
   "usage": "getDifficulty(<mapname>)",
-  "description": [
-    "Get the difficulty level of a map."
-  ],
+  "description": ["Get the difficulty level of a map."],
   "params": [
     {
       "name": "mapname",
       "type": "string",
-      "description": [
-        "Console name of the map."
-      ],
+      "description": ["Console name of the map."],
       "optional": false
     }
   ],
   "return": "string",
-  "example": [
-    "level.surfDifficulty = surf\\_difficulty::getDifficulty(level.script);"
-  ]
+  "example": ["level.surfDifficulty = surf\\_difficulty::getDifficulty(level.script);"]
 }

@@ -1,20 +1,14 @@
 {
   "usage": "setVoteTime(<time>)",
-  "description": [
-    "Sets the start time for a vote."
-  ],
+  "description": ["Sets the start time for a vote."],
   "params": [
     {
       "name": "time",
       "type": "int",
-      "description": [
-        "The vote time in ms."
-      ],
+      "description": ["The vote time in ms."],
       "optional": false
     }
   ],
-  "example": [
-    "setVoteTime(10000);"
-  ],
+  "example": ["setVoteTime(10000);"],
   "engine": "MP"
 }

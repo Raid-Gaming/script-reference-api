@@ -1,20 +1,14 @@
 {
   "usage": "<player> allowMelee(<allow>)",
-  "description": [
-    "Sets whether the player can melee."
-  ],
+  "description": ["Sets whether the player can melee."],
   "params": [
     {
       "name": "allow",
       "type": "bool",
-      "description": [
-        "A boolean: true if the player can melee, false otherwise."
-      ],
+      "description": ["A boolean: true if the player can melee, false otherwise."],
       "optional": false
     }
   ],
-  "example": [
-    "level.player allowMelee(false);"
-  ],
+  "example": ["level.player allowMelee(false);"],
   "engine": "SP"
 }

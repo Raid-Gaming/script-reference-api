@@ -1,11 +1,7 @@
 {
   "usage": "getAllVehicleNodes()",
-  "description": [
-    "Gets all of the vehicle nodes in a level."
-  ],
+  "description": ["Gets all of the vehicle nodes in a level."],
   "return": "Array",
-  "example": [
-    "nodes = getAllVehicleNodes();"
-  ],
+  "example": ["nodes = getAllVehicleNodes();"],
   "engine": "SP"
 }

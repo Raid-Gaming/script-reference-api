@@ -1,11 +1,7 @@
 {
   "usage": "<player> useButtonPressed()",
-  "description": [
-    "Check if the player is pressing the \"use\" button."
-  ],
+  "description": ["Check if the player is pressing the \"use\" button."],
   "return": "bool",
-  "example": [
-    "if (self useButtonPressed()) {\n  // Code\n}"
-  ],
+  "example": ["if (self useButtonPressed()) {\n  // Code\n}"],
   "engine": "MP"
 }

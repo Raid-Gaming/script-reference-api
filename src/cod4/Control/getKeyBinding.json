@@ -7,15 +7,11 @@
     {
       "name": "key binding",
       "type": "string",
-      "description": [
-        "A key binding name as a string."
-      ],
+      "description": ["A key binding name as a string."],
       "optional": false
     }
   ],
   "return": "string",
-  "example": [
-    "firekey = getKeyBinding(\"+attack\");"
-  ],
+  "example": ["firekey = getKeyBinding(\"+attack\");"],
   "engine": "SP"
 }

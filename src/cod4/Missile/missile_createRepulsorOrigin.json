@@ -1,23 +1,17 @@
 {
   "usage": "missile_createRepulsorOrigin(<origin>, <strength>, <maxDist>)",
-  "description": [
-    "Creates a missile repulsor at the given location."
-  ],
+  "description": ["Creates a missile repulsor at the given location."],
   "params": [
     {
       "name": "origin",
       "type": "Vector3",
-      "description": [
-        "The center of the repulsor."
-      ],
+      "description": ["The center of the repulsor."],
       "optional": false
     },
     {
       "name": "strength",
       "type": "int",
-      "description": [
-        "The strength of the repulsor (maximum acceleration it can apply to a missle)."
-      ],
+      "description": ["The strength of the repulsor (maximum acceleration it can apply to a missle)."],
       "optional": false
     },
     {
@@ -30,7 +24,5 @@
     }
   ],
   "return": "Entity",
-  "example": [
-    "repulsor = missile_createRepulsorOrigin((100, 350, 10), 10000, 6000);"
-  ]
+  "example": ["repulsor = missile_createRepulsorOrigin((100, 350, 10), 10000, 6000);"]
 }

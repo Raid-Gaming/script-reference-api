@@ -1,20 +1,14 @@
 {
   "usage": "setTimeScale(<timescale>)",
-  "description": [
-    "Sets the current timescale."
-  ],
+  "description": ["Sets the current timescale."],
   "params": [
     {
       "name": "timescale",
       "type": "float",
-      "description": [
-        "Timescale."
-      ],
+      "description": ["Timescale."],
       "optional": false
     }
   ],
-  "example": [
-    "setTimeScale(0.5);"
-  ],
+  "example": ["setTimeScale(0.5);"],
   "engine": "SP"
 }

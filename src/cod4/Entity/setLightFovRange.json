@@ -1,8 +1,6 @@
 {
   "usage": "<entity> setLightFovRange(<fov outer>, <fov inner>)",
-  "description": [
-    "Sets the current radius of the light."
-  ],
+  "description": ["Sets the current radius of the light."],
   "params": [
     {
       "name": "fov outer",
@@ -21,8 +19,6 @@
       "optional": true
     }
   ],
-  "example": [
-    "self setLightFovRange(outer, inner);"
-  ],
+  "example": ["self setLightFovRange(outer, inner);"],
   "engine": "SP"
 }

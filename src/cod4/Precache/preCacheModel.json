@@ -1,19 +1,13 @@
 {
   "usage": "preCacheModel(<name>)",
-  "description": [
-    "Precaches the given model. It must be called before any wait statements in the level script."
-  ],
+  "description": ["Precaches the given model. It must be called before any wait statements in the level script."],
   "params": [
     {
       "name": "name",
       "type": "string",
-      "description": [
-        "Name of the model to precache."
-      ],
+      "description": ["Name of the model to precache."],
       "optional": false
     }
   ],
-  "example": [
-    "preCacheModel(\"prop_panzerfaust_lid\");"
-  ]
+  "example": ["preCacheModel(\"prop_panzerfaust_lid\");"]
 }

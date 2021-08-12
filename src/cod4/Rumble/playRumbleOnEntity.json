@@ -1,19 +1,13 @@
 {
   "usage": "<entity> playRumbleOnEntity(<rumble>)",
-  "description": [
-    "Plays a rumble on the given entity."
-  ],
+  "description": ["Plays a rumble on the given entity."],
   "params": [
     {
       "name": "rumble",
       "type": "string",
-      "description": [
-        "The name of the rumble to play."
-      ],
+      "description": ["The name of the rumble to play."],
       "optional": false
     }
   ],
-  "example": [
-    "self playRumbleOnEntity(\"damage_heavy\");"
-  ]
+  "example": ["self playRumbleOnEntity(\"damage_heavy\");"]
 }

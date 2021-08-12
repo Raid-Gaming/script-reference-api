@@ -1,12 +1,8 @@
 {
   "usage": "<entity> getEnemySqDist()",
-  "description": [
-    "Get the distance to the nearest enemy. Deprecated, use getClosestEnemySqDist."
-  ],
+  "description": ["Get the distance to the nearest enemy. Deprecated, use getClosestEnemySqDist."],
   "return": "float",
-  "example": [
-    "dist = self getEnemySqDist();"
-  ],
+  "example": ["dist = self getEnemySqDist();"],
   "engine": "SP",
   "deprecated": true
 }

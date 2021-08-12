@@ -7,14 +7,10 @@
     {
       "name": "bool",
       "type": "bool",
-      "description": [
-        "Values: true or false."
-      ],
+      "description": ["Values: true or false."],
       "optional": false
     }
   ],
-  "example": [
-    "level.player weaponLockTagetTooClose(true);"
-  ],
+  "example": ["level.player weaponLockTagetTooClose(true);"],
   "engine": "SP"
 }

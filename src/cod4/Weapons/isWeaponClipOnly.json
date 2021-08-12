@@ -1,20 +1,14 @@
 {
   "usage": "isWeaponClipOnly(<weapon>)",
-  "description": [
-    "Returns true if the weapon is clip only."
-  ],
+  "description": ["Returns true if the weapon is clip only."],
   "params": [
     {
       "name": "weapon",
       "type": "string",
-      "description": [
-        "The weapon name."
-      ],
+      "description": ["The weapon name."],
       "optional": false
     }
   ],
   "return": "bool",
-  "example": [
-    "if (isWeaponClipOnly(\"c4\")) {\n  // Code\n}"
-  ]
+  "example": ["if (isWeaponClipOnly(\"c4\")) {\n  // Code\n}"]
 }

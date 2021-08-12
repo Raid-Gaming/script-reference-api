@@ -1,23 +1,17 @@
 {
   "usage": "<entity> itemWeaponSetAmmo(<clip ammo>, <stock ammo>, <alt weapon>)",
-  "description": [
-    "Sets the ammo amount for a weapon item entity (lying on the ground)."
-  ],
+  "description": ["Sets the ammo amount for a weapon item entity (lying on the ground)."],
   "params": [
     {
       "name": "clip ammo",
       "type": "int",
-      "description": [
-        "The amount of ammo in the clip."
-      ],
+      "description": ["The amount of ammo in the clip."],
       "optional": false
     },
     {
       "name": "stock ammo",
       "type": "int",
-      "description": [
-        "The amount of ammo in the stockpile."
-      ],
+      "description": ["The amount of ammo in the stockpile."],
       "optional": false
     },
     {
@@ -29,7 +23,5 @@
       "optional": true
     }
   ],
-  "example": [
-    "weapon itemWeaponSetAmmo(5, 20);"
-  ]
+  "example": ["weapon itemWeaponSetAmmo(5, 20);"]
 }

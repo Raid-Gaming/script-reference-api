@@ -1,20 +1,14 @@
 {
   "usage": "precacheHeadIcon(<name>)",
-  "description": [
-    "Precache a head icon."
-  ],
+  "description": ["Precache a head icon."],
   "params": [
     {
       "name": "name",
       "type": "string",
-      "description": [
-        "Name of the material to precache."
-      ],
+      "description": ["Name of the material to precache."],
       "optional": false
     }
   ],
-  "example": [
-    "preCacheHeadIcon(game[\"headicon_allies\"]);"
-  ],
+  "example": ["preCacheHeadIcon(game[\"headicon_allies\"]);"],
   "engine": "MP"
 }

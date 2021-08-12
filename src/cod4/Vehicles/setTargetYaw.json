@@ -1,19 +1,13 @@
 {
   "usage": "<entity> setTargetYaw(<yaw>)",
-  "description": [
-    "Set the target yaw direction for this vehicle. Goal yaw has priority over target yaw."
-  ],
+  "description": ["Set the target yaw direction for this vehicle. Goal yaw has priority over target yaw."],
   "params": [
     {
       "name": "yaw",
       "type": "angle",
-      "description": [
-        "The yaw direction of the target."
-      ],
+      "description": ["The yaw direction of the target."],
       "optional": false
     }
   ],
-  "example": [
-    "level.flak1 setTargetYaw(vec[1]);"
-  ]
+  "example": ["level.flak1 setTargetYaw(vec[1]);"]
 }

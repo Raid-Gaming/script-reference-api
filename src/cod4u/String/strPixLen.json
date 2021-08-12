@@ -1,20 +1,14 @@
 {
   "usage": "strPixLen(<string>)",
-  "description": [
-    "Measures the average length of a given string if it would be printed."
-  ],
+  "description": ["Measures the average length of a given string if it would be printed."],
   "params": [
     {
       "name": "string",
       "type": "string",
-      "description": [
-        "String to measure."
-      ],
+      "description": ["String to measure."],
       "optional": false
     }
   ],
   "return": "float",
-  "example": [
-    "len = strPixLen(\"Hello world!\");"
-  ]
+  "example": ["len = strPixLen(\"Hello world!\");"]
 }

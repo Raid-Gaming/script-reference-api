@@ -1,20 +1,14 @@
 {
   "usage": "<entity> setDefaultDropPitch(<pitch>)",
-  "description": [
-    "Set the default drop pitch that the turret attempts to return to when it is not in use."
-  ],
+  "description": ["Set the default drop pitch that the turret attempts to return to when it is not in use."],
   "params": [
     {
       "name": "pitch",
       "type": "float",
-      "description": [
-        "Pitch of the turret (side to side) in degrees."
-      ],
+      "description": ["Pitch of the turret (side to side) in degrees."],
       "optional": false
     }
   ],
-  "example": [
-    "turret setDefaultDropPitch(-90);"
-  ],
+  "example": ["turret setDefaultDropPitch(-90);"],
   "engine": "SP"
 }

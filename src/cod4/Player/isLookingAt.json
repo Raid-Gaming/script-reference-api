@@ -1,20 +1,14 @@
 {
   "usage": "<player> isLookingAt(<entity>)",
-  "description": [
-    "Returns true if the entity is the same as the player's lookat entity."
-  ],
+  "description": ["Returns true if the entity is the same as the player's lookat entity."],
   "params": [
     {
       "name": "entity",
       "type": "Entity",
-      "description": [
-        "An entity."
-      ],
+      "description": ["An entity."],
       "optional": false
     }
   ],
   "return": "bool",
-  "example": [
-    "if (level.player isLookingAt(trigger)) {\n  // Code\n}"
-  ]
+  "example": ["if (level.player isLookingAt(trigger)) {\n  // Code\n}"]
 }

@@ -1,11 +1,7 @@
 {
   "usage": "<player> attackButtonPressed()",
-  "description": [
-    "Check if the player is pressing the \"attack\" button."
-  ],
+  "description": ["Check if the player is pressing the \"attack\" button."],
   "return": "bool",
-  "example": [
-    "if (self attackButtonPressed()) {\n  // Code\n}"
-  ],
+  "example": ["if (self attackButtonPressed()) {\n  // Code\n}"],
   "engine": "MP"
 }

@@ -1,16 +1,12 @@
 {
   "sourceFile": "surf\\_items",
   "usage": "<player> handsUnlocked(<num>)",
-  "description": [
-    "Checks if a player has unlocked a set of viewhands."
-  ],
+  "description": ["Checks if a player has unlocked a set of viewhands."],
   "params": [
     {
       "name": "num",
       "type": "int",
-      "description": [
-        "Viewhands ID (as found in handsTable.csv)."
-      ],
+      "description": ["Viewhands ID (as found in handsTable.csv)."],
       "optional": false
     }
   ],

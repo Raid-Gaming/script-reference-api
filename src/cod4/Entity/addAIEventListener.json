@@ -7,14 +7,10 @@
     {
       "name": "event",
       "type": "string",
-      "description": [
-        "An AI event to listen to."
-      ],
+      "description": ["An AI event to listen to."],
       "optional": false
     }
   ],
-  "example": [
-    "self addAIEventListener(\"bulletwhizby\");"
-  ],
+  "example": ["self addAIEventListener(\"bulletwhizby\");"],
   "engine": "SP"
 }

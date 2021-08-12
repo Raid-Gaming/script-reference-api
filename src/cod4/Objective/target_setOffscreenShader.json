@@ -7,22 +7,16 @@
     {
       "name": "target entity",
       "type": "Entity",
-      "description": [
-        "The entity that is the target."
-      ],
+      "description": ["The entity that is the target."],
       "optional": false
     },
     {
       "name": "material",
       "type": "string",
-      "description": [
-        "The shader for the quad drawn over the target."
-      ],
+      "description": ["The shader for the quad drawn over the target."],
       "optional": false
     }
   ],
-  "example": [
-    "target_setOffscreenShader(enemyChopper, \"arrow\");"
-  ],
+  "example": ["target_setOffscreenShader(enemyChopper, \"arrow\");"],
   "engine": "SP"
 }

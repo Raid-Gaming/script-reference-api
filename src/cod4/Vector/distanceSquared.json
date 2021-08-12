@@ -7,20 +7,14 @@
     {
       "name": "point A",
       "type": "Vector3",
-      "description": [
-        "The first point."
-      ]
+      "description": ["The first point."]
     },
     {
       "name": "point B",
       "type": "Vector3",
-      "description": [
-        "The second point."
-      ]
+      "description": ["The second point."]
     }
   ],
   "return": "float",
-  "example": [
-    "dist = distanceSquared(models[j].origin, center);"
-  ]
+  "example": ["dist = distanceSquared(models[j].origin, center);"]
 }

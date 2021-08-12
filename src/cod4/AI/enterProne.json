@@ -1,20 +1,14 @@
 {
   "usage": "<actor> enterProne(<interpolation time>)",
-  "description": [
-    "Set the actor to enter the prone position."
-  ],
+  "description": ["Set the actor to enter the prone position."],
   "params": [
     {
       "name": "interpolation time",
       "type": "float",
-      "description": [
-        "Time to go prone in seconds."
-      ],
+      "description": ["Time to go prone in seconds."],
       "optional": false
     }
   ],
-  "example": [
-    "self enterProne(1.0);"
-  ],
+  "example": ["self enterProne(1.0);"],
   "engine": "SP"
 }

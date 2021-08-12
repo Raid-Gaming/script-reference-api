@@ -1,11 +1,7 @@
 {
   "usage": "<player> isMantling()",
-  "description": [
-    "Return true if the player is mantling, false otherwise."
-  ],
+  "description": ["Return true if the player is mantling, false otherwise."],
   "return": "bool",
-  "example": [
-    "self isMantling();"
-  ],
+  "example": ["self isMantling();"],
   "engine": "MP"
 }

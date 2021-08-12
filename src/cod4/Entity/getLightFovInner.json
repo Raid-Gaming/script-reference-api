@@ -1,11 +1,7 @@
 {
   "usage": "<entity> getLightFovInner()",
-  "description": [
-    "Gets the current inner FOV of a spot light."
-  ],
+  "description": ["Gets the current inner FOV of a spot light."],
   "return": "int",
-  "example": [
-    "radius = self getLightFovInner();"
-  ],
+  "example": ["radius = self getLightFovInner();"],
   "engine": "SP"
 }

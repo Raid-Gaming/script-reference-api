@@ -7,15 +7,11 @@
     {
       "name": "node",
       "type": "Entity",
-      "description": [
-        "A node on the path to attach."
-      ],
+      "description": ["A node on the path to attach."],
       "optional": false
     }
   ],
   "return": "Array",
-  "example": [
-    "pos = self getAttachPos(node);\norigin = pos[0];\nangles = pos[1];"
-  ],
+  "example": ["pos = self getAttachPos(node);\norigin = pos[0];\nangles = pos[1];"],
   "engine": "SP"
 }

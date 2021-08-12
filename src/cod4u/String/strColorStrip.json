@@ -7,14 +7,10 @@
     {
       "name": "string",
       "type": "string",
-      "description": [
-        "Variable holding the string to be cleaned."
-      ],
+      "description": ["Variable holding the string to be cleaned."],
       "optional": false
     }
   ],
   "return": "string",
-  "example": [
-    "strColorStrip(self.name);"
-  ]
+  "example": ["strColorStrip(self.name);"]
 }

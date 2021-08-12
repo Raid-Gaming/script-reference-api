@@ -1,11 +1,7 @@
 {
   "usage": "<player> fragButtonPressed()",
-  "description": [
-    "Check if the player is pressing the \"frag\" button."
-  ],
+  "description": ["Check if the player is pressing the \"frag\" button."],
   "return": "bool",
-  "example": [
-    "if (self fragButtonPressed()) {\n  // Code\n}"
-  ],
+  "example": ["if (self fragButtonPressed()) {\n  // Code\n}"],
   "engine": "MP"
 }

@@ -7,30 +7,22 @@
     {
       "name": "segment A",
       "type": "Vector3",
-      "description": [
-        "One point on the line."
-      ],
+      "description": ["One point on the line."],
       "optional": false
     },
     {
       "name": "segment B",
       "type": "Vector3",
-      "description": [
-        "Other point on the line."
-      ],
+      "description": ["Other point on the line."],
       "optional": false
     },
     {
       "name": "P",
       "type": "Vector3",
-      "description": [
-        "The point."
-      ],
+      "description": ["The point."],
       "optional": false
     }
   ],
   "return": "Vector3",
-  "example": [
-    "vec = vectorFromLineToPoint(a, b, p);"
-  ]
+  "example": ["vec = vectorFromLineToPoint(a, b, p);"]
 }

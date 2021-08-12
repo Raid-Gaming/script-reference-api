@@ -1,31 +1,23 @@
 {
   "usage": "<player> setEq(<channel>, <eqIndex>, <band>, <filter type>, <gain>, <frequency>, <q>)",
-  "description": [
-    "Set a parametric filter for the player on a specified channel."
-  ],
+  "description": ["Set a parametric filter for the player on a specified channel."],
   "params": [
     {
       "name": "channel",
       "type": "string",
-      "description": [
-        "The name of the audio channel to apply the EQ to."
-      ],
+      "description": ["The name of the audio channel to apply the EQ to."],
       "optional": false
     },
     {
       "name": "eqIndex",
       "type": "int",
-      "description": [
-        "The EQ index to use (0 and 1)."
-      ],
+      "description": ["The EQ index to use (0 and 1)."],
       "optional": false
     },
     {
       "name": "band",
       "type": "int",
-      "description": [
-        "Select which band, there are currently two bands (0 and 1)."
-      ],
+      "description": ["Select which band, there are currently two bands (0 and 1)."],
       "optional": true
     },
     {
@@ -39,30 +31,22 @@
     {
       "name": "gain",
       "type": "int",
-      "description": [
-        "The gain in dB. Has no effect on \"lowpass\" or \"highpass\"."
-      ],
+      "description": ["The gain in dB. Has no effect on \"lowpass\" or \"highpass\"."],
       "optional": true
     },
     {
       "name": "frequency",
       "type": "int",
-      "description": [
-        "The \"important\" frequency, between 0 and 20 kHZ. enter value in Hz."
-      ],
+      "description": ["The \"important\" frequency, between 0 and 20 kHZ. enter value in Hz."],
       "optional": true
     },
     {
       "name": "q",
       "type": "float",
-      "description": [
-        "The quality factor."
-      ],
+      "description": ["The quality factor."],
       "optional": true
     }
   ],
-  "example": [
-    "level.player setEq(\"ambient\", 0, \"bell\", 3, 1000, 2.1);"
-  ],
+  "example": ["level.player setEq(\"ambient\", 0, \"bell\", 3, 1000, 2.1);"],
   "engine": "SP"
 }

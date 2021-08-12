@@ -1,11 +1,7 @@
 {
   "usage": "getReflectionLocs()",
-  "description": [
-    "Gets an array of the locations of all of the reflection_probes in the level."
-  ],
+  "description": ["Gets an array of the locations of all of the reflection_probes in the level."],
   "return": "Array",
-  "example": [
-    "reflectionLocs = getReflectionLocs();"
-  ],
+  "example": ["reflectionLocs = getReflectionLocs();"],
   "engine": "SP"
 }

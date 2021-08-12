@@ -1,11 +1,7 @@
 {
   "usage": "<entity> getLightColor()",
-  "description": [
-    "Gets the current color of the light as an RGB vector."
-  ],
+  "description": ["Gets the current color of the light as an RGB vector."],
   "return": "Vector3",
-  "example": [
-    "color = self getLightColor();"
-  ],
+  "example": ["color = self getLightColor();"],
   "engine": "SP"
 }

@@ -1,8 +1,6 @@
 {
   "usage": "musicStop(<time>, <overrideCheat>)",
-  "description": [
-    "Stop playing music."
-  ],
+  "description": ["Stop playing music."],
   "params": [
     {
       "name": "time",
@@ -15,13 +13,9 @@
     {
       "name": "overrideCheat",
       "type": "bool",
-      "description": [
-        "Certain player cheats can disable this function, set this true to force the issue."
-      ],
+      "description": ["Certain player cheats can disable this function, set this true to force the issue."],
       "optional": true
     }
   ],
-  "example": [
-    "musicStop(3);"
-  ]
+  "example": ["musicStop(3);"]
 }

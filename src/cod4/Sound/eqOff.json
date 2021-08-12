@@ -1,10 +1,6 @@
 {
   "usage": "<entity> eqOff()",
-  "description": [
-    "Disables EQ on an entity."
-  ],
-  "example": [
-    "ai eqOff();"
-  ],
+  "description": ["Disables EQ on an entity."],
+  "example": ["ai eqOff();"],
   "engine": "SP"
 }

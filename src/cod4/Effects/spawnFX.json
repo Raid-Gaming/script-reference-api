@@ -7,38 +7,28 @@
     {
       "name": "effect id",
       "type": "int",
-      "description": [
-        "The effect id returned by loadFX()."
-      ],
+      "description": ["The effect id returned by loadFX()."],
       "optional": false
     },
     {
       "name": "position",
       "type": "Vector3",
-      "description": [
-        "The position of the effect."
-      ],
+      "description": ["The position of the effect."],
       "optional": false
     },
     {
       "name": "forward",
       "type": "Vector3",
-      "description": [
-        "The forward vector for the effect."
-      ],
+      "description": ["The forward vector for the effect."],
       "optional": true
     },
     {
       "name": "up",
       "type": "Vector3",
-      "description": [
-        "The up vector for the effect."
-      ],
+      "description": ["The up vector for the effect."],
       "optional": true
     }
   ],
   "return": "entity",
-  "example": [
-    "fxObj = spawnFX(fxId, pos, dir);"
-  ]
+  "example": ["fxObj = spawnFX(fxId, pos, dir);"]
 }

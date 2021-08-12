@@ -1,20 +1,14 @@
 {
   "usage": "<player> allowLean(<allow>)",
-  "description": [
-    "Sets whether the player can lean."
-  ],
+  "description": ["Sets whether the player can lean."],
   "params": [
     {
       "name": "allow",
       "type": "bool",
-      "description": [
-        "A boolean: true if the player can lean, false otherwise."
-      ],
+      "description": ["A boolean: true if the player can lean, false otherwise."],
       "optional": false
     }
   ],
-  "example": [
-    "level.player allowLean(false);"
-  ],
+  "example": ["level.player allowLean(false);"],
   "engine": "SP"
 }

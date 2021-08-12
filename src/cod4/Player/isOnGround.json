@@ -1,10 +1,6 @@
 {
   "usage": "<player> isOnGround()",
-  "description": [
-    "Returns true if the player is on the ground."
-  ],
+  "description": ["Returns true if the player is on the ground."],
   "return": "bool",
-  "example": [
-    "if (level.player isOnGround()) {\n  // Code\n}"
-  ]
+  "example": ["if (level.player isOnGround()) {\n  // Code\n}"]
 }

@@ -1,20 +1,14 @@
 {
   "usage": "<player> unsetPerk(<perk>)",
-  "description": [
-    "Takes the specified perk from the player."
-  ],
+  "description": ["Takes the specified perk from the player."],
   "params": [
     {
       "name": "perk",
       "type": "string",
-      "description": [
-        "The perk to unset."
-      ],
+      "description": ["The perk to unset."],
       "optional": false
     }
   ],
-  "example": [
-    "player unsetPerk(\"specialty_gpsjammer\");"
-  ],
+  "example": ["player unsetPerk(\"specialty_gpsjammer\");"],
   "engine": "MP"
 }

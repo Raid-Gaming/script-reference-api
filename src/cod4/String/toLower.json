@@ -1,20 +1,14 @@
 {
   "usage": "toLower(<string>)",
-  "description": [
-    "Converts a string to a lower case string which is returned."
-  ],
+  "description": ["Converts a string to a lower case string which is returned."],
   "params": [
     {
       "name": "string",
       "type": "string",
-      "description": [
-        "String to turn lower case."
-      ],
+      "description": ["String to turn lower case."],
       "optional": false
     }
   ],
   "return": "string",
-  "example": [
-    "level.script = toLower(getDvar(\"mapname\"));"
-  ]
+  "example": ["level.script = toLower(getDvar(\"mapname\"));"]
 }

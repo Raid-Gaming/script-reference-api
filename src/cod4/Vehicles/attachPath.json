@@ -1,20 +1,14 @@
 {
   "usage": "<entity> attachPath(<node>)",
-  "description": [
-    "Attaches this vehicle to the given path."
-  ],
+  "description": ["Attaches this vehicle to the given path."],
   "params": [
     {
       "name": "node",
       "type": "Entity",
-      "description": [
-        "A node on the path to attach."
-      ],
+      "description": ["A node on the path to attach."],
       "optional": false
     }
   ],
-  "example": [
-    "bomber attachPath(aBomberPaths[i]);"
-  ],
+  "example": ["bomber attachPath(aBomberPaths[i]);"],
   "engine": "SP"
 }

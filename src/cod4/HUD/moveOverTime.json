@@ -1,19 +1,13 @@
 {
   "usage": "<hud> moveOverTime(<time>)",
-  "description": [
-    "Set a HUD element to move over time."
-  ],
+  "description": ["Set a HUD element to move over time."],
   "params": [
     {
       "name": "time",
       "type": "float",
-      "description": [
-        "The time to move the element in seconds."
-      ],
+      "description": ["The time to move the element in seconds."],
       "optional": false
     }
   ],
-  "example": [
-    "newStr moveOverTime(timer);"
-  ]
+  "example": ["newStr moveOverTime(timer);"]
 }

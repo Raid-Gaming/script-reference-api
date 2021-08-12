@@ -1,10 +1,6 @@
 {
   "usage": "<player> updateScores()",
-  "description": [
-    "Updates the client's knowledge of team scores."
-  ],
-  "example": [
-    "player updateScores();"
-  ],
+  "description": ["Updates the client's knowledge of team scores."],
+  "example": ["player updateScores();"],
   "engine": "MP"
 }

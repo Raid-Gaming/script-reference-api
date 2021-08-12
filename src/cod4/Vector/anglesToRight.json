@@ -1,19 +1,13 @@
 {
   "usage": "anglesToRight(<angles>)",
-  "description": [
-    "Returns the right vector corresponding to a set of angles."
-  ],
+  "description": ["Returns the right vector corresponding to a set of angles."],
   "params": [
     {
       "name": "angles",
       "type": "Vector3",
-      "description": [
-        "A set of angles."
-      ]
+      "description": ["A set of angles."]
     }
   ],
   "return": "Vector3",
-  "example": [
-    "right = anglesToRight(angles);"
-  ]
+  "example": ["right = anglesToRight(angles);"]
 }

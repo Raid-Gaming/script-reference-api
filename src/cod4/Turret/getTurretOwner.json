@@ -1,10 +1,6 @@
 {
   "usage": "<entity> getTurretOwner()",
-  "description": [
-    "Gets the owner of this turret."
-  ],
-  "example": [
-    "mg42User = roofMg42 getTurretOwner();"
-  ],
+  "description": ["Gets the owner of this turret."],
+  "example": ["mg42User = roofMg42 getTurretOwner();"],
   "engine": "SP"
 }

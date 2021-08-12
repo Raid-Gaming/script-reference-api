@@ -1,19 +1,13 @@
 {
   "usage": "length(<vector>)",
-  "description": [
-    "Returns the length of the given vector."
-  ],
+  "description": ["Returns the length of the given vector."],
   "params": [
     {
       "name": "vector",
       "type": "Vector3",
-      "description": [
-        "A vector."
-      ]
+      "description": ["A vector."]
     }
   ],
   "return": "float",
-  "example": [
-    "dist = length(models[j].origin - center);"
-  ]
+  "example": ["dist = length(models[j].origin - center);"]
 }

@@ -1,19 +1,13 @@
 {
   "usage": "<hud> setTimer(<time>)",
-  "description": [
-    "Set a timer HUD element to count down."
-  ],
+  "description": ["Set a timer HUD element to count down."],
   "params": [
     {
       "name": "time",
       "type": "int",
-      "description": [
-        "The new timer time."
-      ],
+      "description": ["The new timer time."],
       "optional": false
     }
   ],
-  "example": [
-    "level.reinforcementHud setTimer(level.counter);"
-  ]
+  "example": ["level.reinforcementHud setTimer(level.counter);"]
 }

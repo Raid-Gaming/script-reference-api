@@ -1,8 +1,6 @@
 {
   "usage": "setBlur(<target_blur>, <time>)",
-  "description": [
-    "Blur the screen over a period of time."
-  ],
+  "description": ["Blur the screen over a period of time."],
   "params": [
     {
       "name": "target_blur",
@@ -15,13 +13,9 @@
     {
       "name": "time",
       "type": "float",
-      "description": [
-        "Time in seconds."
-      ],
+      "description": ["Time in seconds."],
       "optional": false
     }
   ],
-  "example": [
-    "setBlur(10.3, 3.0);"
-  ]
+  "example": ["setBlur(10.3, 3.0);"]
 }

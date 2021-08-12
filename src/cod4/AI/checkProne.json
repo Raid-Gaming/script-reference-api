@@ -7,31 +7,23 @@
     {
       "name": "position",
       "type": "Vector3",
-      "description": [
-        "The position of the prone character."
-      ],
+      "description": ["The position of the prone character."],
       "optional": false
     },
     {
       "name": "yaw",
       "type": "float",
-      "description": [
-        "The world yaw in degrees."
-      ],
+      "description": ["The world yaw in degrees."],
       "optional": false
     },
     {
       "name": "is prone",
       "type": "bool",
-      "description": [
-        "Flag if the character is already prone."
-      ],
+      "description": ["Flag if the character is already prone."],
       "optional": false
     }
   ],
   "return": "bool",
-  "example": [
-    "canFitProne = self checkProne(origin, yaw, alreadyProne);"
-  ],
+  "example": ["canFitProne = self checkProne(origin, yaw, alreadyProne);"],
   "engine": "SP"
 }

@@ -1,21 +1,15 @@
 {
   "usage": "isValidGameType(<game type>)",
-  "description": [
-    "Returns true if the string is a valid game type."
-  ],
+  "description": ["Returns true if the string is a valid game type."],
   "params": [
     {
       "name": "game type",
       "type": "string",
-      "description": [
-        "A string to check."
-      ],
+      "description": ["A string to check."],
       "optional": false
     }
   ],
   "return": "bool",
-  "example": [
-    "isValid = isValidGameType(getDvar(\"g_gametype\"));"
-  ],
+  "example": ["isValid = isValidGameType(getDvar(\"g_gametype\"));"],
   "engine": "MP"
 }

@@ -7,57 +7,43 @@
     {
       "name": "entity",
       "type": "Entity",
-      "description": [
-        "The entity to attach the player to."
-      ],
+      "description": ["The entity to attach the player to."],
       "optional": false
     },
     {
       "name": "tag",
       "type": "string",
-      "description": [
-        "The tag to attach the player to."
-      ],
+      "description": ["The tag to attach the player to."],
       "optional": true
     },
     {
       "name": "viewpercentage fraction",
       "type": "float",
-      "description": [
-        "How much the change in the tag's rotation affects the player's view. Defaults to 0."
-      ],
+      "description": ["How much the change in the tag's rotation affects the player's view. Defaults to 0."],
       "optional": true
     },
     {
       "name": "right arc",
       "type": "float",
-      "description": [
-        "Angle to clamp view to the right. Defaults to 180."
-      ],
+      "description": ["Angle to clamp view to the right. Defaults to 180."],
       "optional": true
     },
     {
       "name": "left arc",
       "type": "float",
-      "description": [
-        "Angle to clamp view to the left. Defaults to 180."
-      ],
+      "description": ["Angle to clamp view to the left. Defaults to 180."],
       "optional": true
     },
     {
       "name": "top arc",
       "type": "float",
-      "description": [
-        "Angle to clamp view to the top. Defaults to 180."
-      ],
+      "description": ["Angle to clamp view to the top. Defaults to 180."],
       "optional": true
     },
     {
       "name": "bottom arc",
       "type": "float",
-      "description": [
-        "Angle to clamp view to the bottom. Defaults to 180."
-      ],
+      "description": ["Angle to clamp view to the bottom. Defaults to 180."],
       "optional": true
     },
     {
@@ -69,8 +55,6 @@
       "optional": true
     }
   ],
-  "example": [
-    "level.player playerLinkTo(vehicle, \"tag_player\", 0.5);"
-  ],
+  "example": ["level.player playerLinkTo(vehicle, \"tag_player\", 0.5);"],
   "engine": "SP"
 }

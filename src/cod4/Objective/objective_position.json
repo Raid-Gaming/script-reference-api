@@ -7,21 +7,15 @@
     {
       "name": "objective number",
       "type": "int",
-      "description": [
-        "The number of the objective to alter."
-      ],
+      "description": ["The number of the objective to alter."],
       "optional": false
     },
     {
       "name": "position",
       "type": "Vector3",
-      "description": [
-        "The position of the objective."
-      ],
+      "description": ["The position of the objective."],
       "optional": false
     }
   ],
-  "example": [
-    "objective_position(4, getObjectivePosition(\"plant_boilerbomb_trigger\"));"
-  ]
+  "example": ["objective_position(4, getObjectivePosition(\"plant_boilerbomb_trigger\"));"]
 }

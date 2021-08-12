@@ -7,31 +7,23 @@
     {
       "name": "hand offset",
       "type": "Vector3",
-      "description": [
-        "The estimated offset of the hand for the throw."
-      ],
+      "description": ["The estimated offset of the hand for the throw."],
       "optional": false
     },
     {
       "name": "method",
       "type": "string",
-      "description": [
-        "The grande toss method. Can be \"min energy\", \"min time\", and \"max tune\"."
-      ],
+      "description": ["The grande toss method. Can be \"min energy\", \"min time\", and \"max tune\"."],
       "optional": false
     },
     {
       "name": "random range",
       "type": "Vector3",
-      "description": [
-        "Random range from target position to throw at."
-      ],
+      "description": ["Random range from target position to throw at."],
       "optional": false
     }
   ],
   "return": "Vector3",
-  "example": [
-    "throwVel = self checkGrenadeThrow(armOffset, \"min energy\", 0);"
-  ],
+  "example": ["throwVel = self checkGrenadeThrow(armOffset, \"min energy\", 0);"],
   "engine": "SP"
 }

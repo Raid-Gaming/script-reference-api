@@ -1,21 +1,15 @@
 {
   "usage": "isPlayerNumber(<entity number>)",
-  "description": [
-    "Returns true if the passed integer is a valid client number."
-  ],
+  "description": ["Returns true if the passed integer is a valid client number."],
   "params": [
     {
       "name": "entity number",
       "type": "int",
-      "description": [
-        "Number to check if it is a client number."
-      ],
+      "description": ["Number to check if it is a client number."],
       "optional": false
     }
   ],
   "return": "bool",
-  "example": [
-    "isPlayerNumber(randomClientNumber);"
-  ],
+  "example": ["isPlayerNumber(randomClientNumber);"],
   "engine": "MP"
 }

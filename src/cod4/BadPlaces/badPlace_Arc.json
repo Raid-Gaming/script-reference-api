@@ -23,33 +23,25 @@
     {
       "name": "origin",
       "type": "Vector3",
-      "description": [
-        "The base position of the bad place."
-      ],
+      "description": ["The base position of the bad place."],
       "optional": false
     },
     {
       "name": "radius",
       "type": "float",
-      "description": [
-        "The radius of the blad place."
-      ],
+      "description": ["The radius of the blad place."],
       "optional": false
     },
     {
       "name": "height",
       "type": "float",
-      "description": [
-        "The height of the bad place."
-      ],
+      "description": ["The height of the bad place."],
       "optional": false
     },
     {
       "name": "direction",
       "type": "Vector3",
-      "description": [
-        "The direction vector is used to give a reference frame for the left and right angles."
-      ],
+      "description": ["The direction vector is used to give a reference frame for the left and right angles."],
       "optional": false
     },
     {
@@ -77,8 +69,6 @@
       "optional": false
     }
   ],
-  "example": [
-    "badPlace_Arc(\"halftrack_bp\", -1, mg42.origin, 1500, 400, (1.00, 0.00, 0.00), 20, 0, \"allies\");"
-  ],
+  "example": ["badPlace_Arc(\"halftrack_bp\", -1, mg42.origin, 1500, 400, (1.00, 0.00, 0.00), 20, 0, \"allies\");"],
   "engine": "SP"
 }

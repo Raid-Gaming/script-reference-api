@@ -7,22 +7,16 @@
     {
       "name": "notify",
       "type": "string",
-      "description": [
-        "Notification to send."
-      ],
+      "description": ["Notification to send."],
       "optional": false
     },
     {
       "name": "command",
       "type": "string",
-      "description": [
-        "Command to watch for."
-      ],
+      "description": ["Command to watch for."],
       "optional": false
     }
   ],
-  "example": [
-    "player notifyOnCommand(\"changeweapon\", \"weapnext\");\nplayer waittill(\"changeweapon\");"
-  ],
+  "example": ["player notifyOnCommand(\"changeweapon\", \"weapnext\");\nplayer waittill(\"changeweapon\");"],
   "engine": "SP"
 }

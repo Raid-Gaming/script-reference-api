@@ -7,14 +7,10 @@
     {
       "name": "key",
       "type": "string",
-      "description": [
-        "Key name in the userinfo table."
-      ],
+      "description": ["Key name in the userinfo table."],
       "optional": false
     }
   ],
   "return": "string",
-  "example": [
-    "name = self getUserInfo(\"name\");"
-  ]
+  "example": ["name = self getUserInfo(\"name\");"]
 }

@@ -7,21 +7,15 @@
     {
       "name": "value",
       "type": "bool",
-      "description": [
-        "Statement that is asserted to be correct."
-      ],
+      "description": ["Statement that is asserted to be correct."],
       "optional": false
     },
     {
       "name": "message",
       "type": "string",
-      "description": [
-        "Error message."
-      ],
+      "description": ["Error message."],
       "optional": false
     }
   ],
-  "example": [
-    "assertEx(enemyInSight == true, \"Script expected enemy to be in sight.\");"
-  ]
+  "example": ["assertEx(enemyInSight == true, \"Script expected enemy to be in sight.\");"]
 }

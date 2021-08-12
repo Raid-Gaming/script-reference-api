@@ -1,19 +1,13 @@
 {
   "usage": "<player> stopLocalSound(<sound>)",
-  "description": [
-    "Stops all instances of a local soundalias running on a player."
-  ],
+  "description": ["Stops all instances of a local soundalias running on a player."],
   "params": [
     {
       "name": "sound",
       "type": "string",
-      "description": [
-        "The name of the sound to stop."
-      ],
+      "description": ["The name of the sound to stop."],
       "optional": false
     }
   ],
-  "example": [
-    "level.player stopLocalSound(\"annoying_siren\");"
-  ]
+  "example": ["level.player stopLocalSound(\"annoying_siren\");"]
 }

@@ -1,10 +1,6 @@
 {
   "usage": "<player> playerAds()",
-  "description": [
-    "Return the player's weapon position fraction."
-  ],
+  "description": ["Return the player's weapon position fraction."],
   "return": "float",
-  "example": [
-    "while (self playerAds() > 0.3) {\n  // Code\n}"
-  ]
+  "example": ["while (self playerAds() > 0.3) {\n  // Code\n}"]
 }

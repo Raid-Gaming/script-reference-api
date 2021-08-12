@@ -1,10 +1,6 @@
 {
   "usage": "<entity> makeVehicleUsable()",
-  "description": [
-    "Sets this vehicle to be usable by the player."
-  ],
-  "example": [
-    "nFlak makeVehicleUsable();"
-  ],
+  "description": ["Sets this vehicle to be usable by the player."],
+  "example": ["nFlak makeVehicleUsable();"],
   "engine": "SP"
 }

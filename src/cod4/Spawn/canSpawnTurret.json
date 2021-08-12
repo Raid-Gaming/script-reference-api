@@ -1,11 +1,7 @@
 {
   "usage": "canSpawnTurret()",
-  "description": [
-    "Returns whether a new turret can be spawned."
-  ],
+  "description": ["Returns whether a new turret can be spawned."],
   "return": "bool",
-  "example": [
-    "if (canSpawnTurret()) {\n  // Code\n}"
-  ],
+  "example": ["if (canSpawnTurret()) {\n  // Code\n}"],
   "engine": "SP"
 }

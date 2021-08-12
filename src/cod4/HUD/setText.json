@@ -1,19 +1,13 @@
 {
   "usage": "<hud> setText(<text>)",
-  "description": [
-    "Set HUD text for this element."
-  ],
+  "description": ["Set HUD text for this element."],
   "params": [
     {
       "name": "text",
       "type": "string",
-      "description": [
-        "A localized text reference."
-      ],
+      "description": ["A localized text reference."],
       "optional": false
     }
   ],
-  "example": [
-    "level.introString1 setText(string1);"
-  ]
+  "example": ["level.introString1 setText(string1);"]
 }

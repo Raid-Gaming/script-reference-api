@@ -18,7 +18,5 @@
     }
   ],
   "return": "string",
-  "example": [
-    "loc = self getGeoLocation(2);"
-  ]
+  "example": ["loc = self getGeoLocation(2);"]
 }

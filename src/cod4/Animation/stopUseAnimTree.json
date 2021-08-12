@@ -1,10 +1,6 @@
 {
   "usage": "<entity> stopUseAnimTree()",
-  "description": [
-    "Stop using the current anim tree."
-  ],
-  "example": [
-    "self stopUseAnimTree();"
-  ],
+  "description": ["Stop using the current anim tree."],
+  "example": ["self stopUseAnimTree();"],
   "engine": "SP"
 }

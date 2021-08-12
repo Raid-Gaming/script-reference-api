@@ -1,29 +1,21 @@
 {
   "usage": "getNode(<name>, <key>)",
-  "description": [
-    "Gets a node with a given name, key pair."
-  ],
+  "description": ["Gets a node with a given name, key pair."],
   "params": [
     {
       "name": "name",
       "type": "string",
-      "description": [
-        "Name to search for."
-      ],
+      "description": ["Name to search for."],
       "optional": false
     },
     {
       "name": "key",
       "type": "string",
-      "description": [
-        "Key that name goes with."
-      ],
+      "description": ["Key that name goes with."],
       "optional": false
     }
   ],
   "return": "Entity",
-  "example": [
-    "node = getNode(self.target, \"targetname\");"
-  ],
+  "example": ["node = getNode(self.target, \"targetname\");"],
   "engine": "SP"
 }

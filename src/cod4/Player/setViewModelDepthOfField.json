@@ -7,21 +7,15 @@
     {
       "name": "start",
       "type": "float",
-      "description": [
-        "Before this distance, depth of field is maximally blurry."
-      ],
+      "description": ["Before this distance, depth of field is maximally blurry."],
       "optional": false
     },
     {
       "name": "end",
       "type": "float",
-      "description": [
-        "After this distance, depth of field is perfectly in focus."
-      ],
+      "description": ["After this distance, depth of field is perfectly in focus."],
       "optional": false
     }
   ],
-  "example": [
-    "self setViewModelDepthOfField(2, 10);"
-  ]
+  "example": ["self setViewModelDepthOfField(2, 10);"]
 }

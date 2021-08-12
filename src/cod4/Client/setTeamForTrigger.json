@@ -1,8 +1,6 @@
 {
   "usage": "<trigger> setTeamForTrigger(<team name>)",
-  "description": [
-    "Set the team that this trigger will react to."
-  ],
+  "description": ["Set the team that this trigger will react to."],
   "params": [
     {
       "name": "team name",
@@ -13,8 +11,6 @@
       "optional": false
     }
   ],
-  "example": [
-    "self setTeamForTrigger(game[ \"attackers\" ]);"
-  ],
+  "example": ["self setTeamForTrigger(game[ \"attackers\" ]);"],
   "engine": "MP"
 }
