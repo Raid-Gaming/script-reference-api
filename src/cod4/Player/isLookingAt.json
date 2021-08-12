@@ -10,5 +10,6 @@
     }
   ],
   "return": "bool",
-  "example": ["if (level.player isLookingAt(trigger)) {\n  // Code\n}"]
+  "example": ["if (level.player isLookingAt(trigger)) {\n  // Code\n}"],
+  "engine": "SP"
 }
